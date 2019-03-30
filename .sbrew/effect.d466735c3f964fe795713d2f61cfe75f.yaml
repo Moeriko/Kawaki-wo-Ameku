@@ -47,3 +47,38 @@ Layers:
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
+  dd4476c253f34961911d38e2bb79d65f:
+    Name: "Post_Intro_Square_7"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  8e0171bb5d6545bf8658e6fbcc5d6a4d:
+    Name: "Post_Intro_Square_11"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  8ff5d2edce67471ea2d7d413d98eafda:
+    Name: "Post_Intro_Square_8"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  7b5e4aee159e44278560ca1c3db63a22:
+    Name: "Post_Intro_Square_10"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  cd4e9778dd3c47db88190f4dcff67465:
+    Name: "Post_Intro_Square_9"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  c35fabdac8cf41d692c836b183d613ec:
+    Name: "Post_Intro_Gray_Grid_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  6242854432014f8b9f1cbf7914f54bff:
+    Name: "Post_Intro_Cyan_Grid_Square"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

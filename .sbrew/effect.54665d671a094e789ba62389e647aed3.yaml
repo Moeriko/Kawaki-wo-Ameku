@@ -62,3 +62,8 @@ Layers:
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
+  446248dfb0ab4e15882ca7a2d76620ce:
+    Name: "Post_Intro_Black_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
