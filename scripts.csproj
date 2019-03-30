@@ -54,9 +54,6 @@
   <ItemGroup>
     <Compile Include="Backgrounds.cs" />
     <Compile Include="Lyrics.cs" />
-    <Compile Include="LyricScript.cs" />
-    <Compile Include="RainScript.cs" />
-    <Compile Include="SpriteScript.cs" />
     <Compile Include="Squares.cs" />
   </ItemGroup>
   <ItemGroup />
