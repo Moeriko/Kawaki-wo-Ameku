@@ -1,0 +1,49 @@
+﻿FormatVersion: 6
+Name: "SquareScripts"
+Script: "Squares"
+Config:
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  8ba6e88b9e4c4d549fc1f8117a853166:
+    Name: "Intro_Square_Big"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  bf696d42e867494f8e02c648dfcaa430:
+    Name: "Intro_Square_Small"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  53b226f808564a9ab71c27b134fe17bc:
+    Name: "Post_Intro_Square_3"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  96e04f6cb2094d4eaae953f7462820a4:
+    Name: "Post_Intro_Square_2"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  ce92738e8e9f454f92fcda740dd67c3e:
+    Name: "Post_Intro_Square_1"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  9418fd5fe0a04aa1881a20e08ed2f8bd:
+    Name: "Post_Intro_Square_4"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  77f8e2aa0e67419195e69cdc98d11a0d:
+    Name: "Post_Intro_Square_6"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  448f12f074a64169a1ece444ba303123:
+    Name: "Post_Intro_Square_5"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

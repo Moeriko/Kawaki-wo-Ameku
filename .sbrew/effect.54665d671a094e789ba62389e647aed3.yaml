@@ -1,0 +1,64 @@
+﻿FormatVersion: 6
+Name: "BackgroundScripts"
+Script: "Backgrounds"
+Config:
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  56a6ceb5c80e49dc88627ee8d54194ee:
+    Name: "Intro_Black_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  5ebb6730542547aeb87fec0477f2fb16:
+    Name: "Intro_White_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  d4b164103133447482697061282b2fbc:
+    Name: "Post_Intro_Gray_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  47505f05c58b4ba89218ea8c7561250e:
+    Name: "Pre_Chorus_Gray_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  2aeff4fc5c24494db1759facc5194927:
+    Name: "Pre_Chorus_Black_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  f433c5d5c11e4f12bd3dbd57ac31fa1c:
+    Name: "Pre_Chorus_White_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  68d3c4a769a2469d8e4c4341c0966405:
+    Name: "Chorus_Blue_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  d2b4707b12314d40a44206938d19fa7d:
+    Name: "Chorus_Gray_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  e47f861dbee24bd98f26ec0bf2ccf051:
+    Name: "Chorus_White_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  8bde21d1fd1b4f0c8e64dac2dce3e108:
+    Name: "Outro_Black_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  62cdc68a73154724a46ea96fdb276606:
+    Name: "Chorus_Outro_Blue_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
