@@ -22,6 +22,11 @@ Layers:
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
+  032936b8630442489fb06bca803d1ddc:
+    Name: "Dropple_Effect_3"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
   96e04f6cb2094d4eaae953f7462820a4:
     Name: "Post_Intro_Square_2"
     OsbLayer: Background
@@ -79,6 +84,61 @@ Layers:
     Visible: Yes
   6242854432014f8b9f1cbf7914f54bff:
     Name: "Post_Intro_Cyan_Grid_Square"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  72d07bfe1e374c5caa0025b5323acbf9:
+    Name: "Pre_Chorus_Square_1"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  ab87b923727e4c1283fbe25ab988e7b0:
+    Name: "Pre_Chorus_Square_2"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  9de2d2e7f5c244c68e7ce14fb91cf34d:
+    Name: "Pre_Chorus_Gap_Closer"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  02529d67251249c4bdb25423eb1c355f:
+    Name: "Pre_Chorus_Gap_Line"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  e0a13938ac0d4e64986a0c64d43e2bc8:
+    Name: "Dropple_Effect_1"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  99212c3d2e994eaab531fd1d9a06c6d6:
+    Name: "Dropple_Effect_2"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  dfb51ceb4bb24b0eaf305fb15bd50767:
+    Name: "Dropple_Effect_4"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  58f52e02f4864f939edfea247d390218:
+    Name: "Dropple_Effect_5"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  3699233771e2486e94b17ca78363437d:
+    Name: "Dropple_Effect_6"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  54f59a5156ac4d4f82c8d8d6592e33f0:
+    Name: "Dropple_Effect_7"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  bfda64a33a2b46a493331ac24c1506c7:
+    Name: "Dropple_Effect_8"
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes

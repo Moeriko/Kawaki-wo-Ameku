@@ -23,6 +23,7 @@ namespace StorybrewScripts
             Pre_Chorus_Gray_BG();
             Pre_Chorus_Black_BG();
             Pre_Chorus_White_BG();
+            BuildUp_White_BG();
             Chorus_Blue_BG();
             Chorus_Gray_BG();
             Chorus_White_BG();
@@ -102,9 +103,23 @@ namespace StorybrewScripts
             sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, 0, 0);
         }
 
+        public void BuildUp_White_BG()
+        {
+            int OffsetA = 52704;
+            int OffsetB = 52937;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetA, 320, 240, 320, 240);
+            sprite.ColorHsb(OffsetA, 0, 0, 1);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 86, 48, 86, 48);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, 0, 0);
+        }
+
         public void Pre_Chorus_Black_BG()
         {
-            int OffsetA = 53170;
+            int OffsetA = 52937;
             int OffsetB = 58518;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);

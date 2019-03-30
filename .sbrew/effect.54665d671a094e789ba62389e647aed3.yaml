@@ -67,3 +67,8 @@ Layers:
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
+  31eccdbe75854bd78bb4b52639b32796:
+    Name: "BuildUp_White_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

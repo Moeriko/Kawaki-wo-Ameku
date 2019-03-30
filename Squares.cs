@@ -30,9 +30,22 @@ namespace StorybrewScripts
             Post_Intro_Square_11();
             Post_Intro_Gray_Grid_BG();
             Post_Intro_Cyan_Grid_Square();
+            Pre_Chorus_Square_1();
+            Pre_Chorus_Square_2();
+            Pre_Chorus_Gap_Closer();
+            Pre_Chorus_Gap_Line();
+            Dropple_Effect_1();
+            Dropple_Effect_2();
+            Dropple_Effect_3();
+            Dropple_Effect_4();
+            Dropple_Effect_5();
+            Dropple_Effect_6();
+            Dropple_Effect_7();
+            Dropple_Effect_8();
         }
 
         public string Sprite = "sb/sprites/white.png";
+        public string Sprite2 = "sb/sprites/whiteb.png";
         public double Rotation = Math.PI / 4;
         public double RotationFlipped = -1.25 * Math.PI;
         public double RotationSmall = -0.5 * Math.PI;
@@ -513,66 +526,443 @@ namespace StorybrewScripts
 
             var spriteCyan11 = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             spriteCyan11.Fade(OffsetA, OffsetB, .8, .8);
-            spriteCyan11.Move(OsbEasing.Out, OffsetA, OffsetB, 0, -60, 0, -60);
-            spriteCyan11.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 15, 15, 15, 15);
+            spriteCyan11.Move(OsbEasing.Out, OffsetA, OffsetB, 0, -80, 0, -80);
+            spriteCyan11.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 17.5, 17.5, 17.5, 17.5);
             spriteCyan11.ColorHsb(OffsetA, 185, .9, .6);
             spriteCyan11.Rotate(OsbEasing.Out, OffsetA, OffsetB, Rotation, Rotation);
 
             var spriteCyan12 = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             spriteCyan12.Fade(OffsetA, OffsetB, .8, .8);
-            spriteCyan12.Move(OsbEasing.Out, OffsetA, OffsetB, 320, -60, 320, -60);
-            spriteCyan12.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 15, 15, 15, 15);
+            spriteCyan12.Move(OsbEasing.Out, OffsetA, OffsetB, 320, -80, 320, -80);
+            spriteCyan12.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 17.5, 17.5, 17.5, 17.5);
             spriteCyan12.ColorHsb(OffsetA, 185, .9, .6);
             spriteCyan12.Rotate(OsbEasing.Out, OffsetA, OffsetB, Rotation, Rotation);
 
             var spriteCyan13 = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             spriteCyan13.Fade(OffsetA, OffsetB, .8, .8);
-            spriteCyan13.Move(OsbEasing.Out, OffsetA, OffsetB, 640, -60, 640, -60);
-            spriteCyan13.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 15, 15, 15, 15);
+            spriteCyan13.Move(OsbEasing.Out, OffsetA, OffsetB, 640, -80, 640, -80);
+            spriteCyan13.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 17.5, 17.5, 17.5, 17.5);
             spriteCyan13.ColorHsb(OffsetA, 185, .9, .6);
             spriteCyan13.Rotate(OsbEasing.Out, OffsetA, OffsetB, Rotation, Rotation);
 
             var spriteCyan31 = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             spriteCyan31.Fade(OffsetA, OffsetB, .8, .8);
-            spriteCyan31.Move(OsbEasing.Out, OffsetA, OffsetB, 0, 260, 0, 260);
-            spriteCyan31.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 15, 15, 15, 15);
+            spriteCyan31.Move(OsbEasing.Out, OffsetA, OffsetB, 0, 240, 0, 240);
+            spriteCyan31.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 17.5, 17.5, 17.5, 17.5);
             spriteCyan31.ColorHsb(OffsetA, 185, .9, .6);
             spriteCyan31.Rotate(OsbEasing.Out, OffsetA, OffsetB, Rotation, Rotation);
 
             var spriteCyan32 = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             spriteCyan32.Fade(OffsetA, OffsetB, .8, .8);
-            spriteCyan32.Move(OsbEasing.Out, OffsetA, OffsetB, 320, 260, 320, 260);
-            spriteCyan32.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 15, 15, 15, 15);
+            spriteCyan32.Move(OsbEasing.Out, OffsetA, OffsetB, 320, 240, 320, 240);
+            spriteCyan32.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 17.5, 17.5, 17.5, 17.5);
             spriteCyan32.ColorHsb(OffsetA, 185, .9, .6);
             spriteCyan32.Rotate(OsbEasing.Out, OffsetA, OffsetB, Rotation, Rotation);
 
             var spriteCyan33 = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             spriteCyan33.Fade(OffsetA, OffsetB, .8, .8);
-            spriteCyan33.Move(OsbEasing.Out, OffsetA, OffsetB, 640, 260, 640, 260);
-            spriteCyan33.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 15, 15, 15, 15);
+            spriteCyan33.Move(OsbEasing.Out, OffsetA, OffsetB, 640, 240, 640, 240);
+            spriteCyan33.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 17.5, 17.5, 17.5, 17.5);
             spriteCyan33.ColorHsb(OffsetA, 185, .9, .6);
             spriteCyan33.Rotate(OsbEasing.Out, OffsetA, OffsetB, Rotation, Rotation);
 
             var spriteCyan51 = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             spriteCyan51.Fade(OffsetA, OffsetB, .8, .8);
-            spriteCyan51.Move(OsbEasing.Out, OffsetA, OffsetB, 0, 580, 0, 580);
-            spriteCyan51.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 15, 15, 15, 15);
+            spriteCyan51.Move(OsbEasing.Out, OffsetA, OffsetB, 0, 560, 0, 560);
+            spriteCyan51.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 17.5, 17.5, 17.5, 17.5);
             spriteCyan51.ColorHsb(OffsetA, 185, .9, .6);
             spriteCyan51.Rotate(OsbEasing.Out, OffsetA, OffsetB, Rotation, Rotation);
 
             var spriteCyan52 = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             spriteCyan52.Fade(OffsetA, OffsetB, .8, .8);
-            spriteCyan52.Move(OsbEasing.Out, OffsetA, OffsetB, 320, 580, 320, 580);
-            spriteCyan52.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 15, 15, 15, 15);
+            spriteCyan52.Move(OsbEasing.Out, OffsetA, OffsetB, 320, 560, 320, 560);
+            spriteCyan52.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 17.5, 17.5, 17.5, 17.5);
             spriteCyan52.ColorHsb(OffsetA, 185, .9, .6);
             spriteCyan52.Rotate(OsbEasing.Out, OffsetA, OffsetB, Rotation, Rotation);
 
             var spriteCyan53 = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             spriteCyan53.Fade(OffsetA, OffsetB, .8, .8);
-            spriteCyan53.Move(OsbEasing.Out, OffsetA, OffsetB, 640, 580, 640, 580);
-            spriteCyan53.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 15, 15, 15, 15);
+            spriteCyan53.Move(OsbEasing.Out, OffsetA, OffsetB, 640, 560, 640, 560);
+            spriteCyan53.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 17.5, 17.5, 17.5, 17.5);
             spriteCyan53.ColorHsb(OffsetA, 185, .9, .6);
             spriteCyan53.Rotate(OsbEasing.Out, OffsetA, OffsetB, Rotation, Rotation);
+        }
+
+        public void Pre_Chorus_Square_1()
+        {
+            int OffsetA = 50611;
+            int OffsetAA = 52239;
+            int OffsetB = 52704;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetAA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.Move(OsbEasing.Out, OffsetA, 52239, 310, 220, 320, 220);
+            sprite.ColorHsb(OffsetA, 20, .3, .35);
+            sprite.ScaleVec(OsbEasing.In, OffsetA, OffsetAA, 5, 5, 50, 50);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetB, Rotation, Rotation);
+        }
+
+        public void Pre_Chorus_Square_2()
+        {
+            int OffsetA = 52937;
+            int OffsetAA = 53170;
+            int OffsetB = 55263;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 280, 280, 280, 280);
+            sprite.ColorHsb(OffsetA, 0, 0, 0);
+            sprite.ScaleVec(OsbEasing.In, OffsetA, OffsetAA, 25, 25, 40, 40);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetB, Rotation, Rotation);
+
+            int OffsetA2 = 52937;
+            int OffsetAA2 = 53170;
+            var sprite2 = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA2, OffsetAA2, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite2.Move(OsbEasing.None, OffsetA, OffsetB, 360, 200, 360, 200);
+            sprite2.ColorHsb(OffsetA, 15, .2, .7);
+            sprite2.ScaleVec(OsbEasing.In, OffsetA, OffsetAA, 65, 65, 50, 50);
+            sprite2.Rotate(OsbEasing.None, OffsetA, OffsetB, Rotation, Rotation);
+        }
+
+        public void Pre_Chorus_Gap_Closer()
+        {
+            int OffsetA = 54797;
+            int OffsetB = 58518;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.Move(OsbEasing.OutCirc, OffsetA, 55263, 320, -240, 320, 120);
+            sprite.ColorHsb(OffsetA, 0, 0, 0);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 86, 24, 86, 24);
+
+            var sprite2 = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite2.Fade(OffsetA, OffsetA, 0, 1);
+            sprite2.Fade(OffsetB, OffsetB, 1, 0);
+            sprite2.Move(OsbEasing.OutCirc, OffsetA, 55263, 320, 840, 320, 360);
+            sprite2.ColorHsb(OffsetA, 0, 0, 0);
+            sprite2.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 86, 24, 86, 24);
+        }
+
+        public void Pre_Chorus_Gap_Line()
+        {
+            int OffsetA = 55263;
+            int OffsetB = 58518;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 1180, 240, 540, 240);
+            sprite.ColorHsb(OffsetA, 0, 0, 1);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 86, .25, 86, .25);
+        }
+
+        public void Dropple_Effect_1()
+        {
+            int OffsetA = 22472;
+            double PositionXA = 680;
+            double PositionYA = 235;
+            double SquareSize = 1.8;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
+            sprite.ColorHsb(OffsetA, 0, 0, 1);
+            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
+
+            int OffsetB = OffsetA + 349;
+            double PositionXB = PositionXA - 75;
+            double PositionYB = PositionYA - 15;
+            var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
+            spriteB.ColorHsb(OffsetB, 0, 0, 1);
+            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
+
+            int OffsetC = OffsetB + 349;
+            double PositionXC = PositionXB - 50;
+            double PositionYC = PositionYB + 45;
+            var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
+            spriteC.ColorHsb(OffsetB, 0, 0, 1);
+            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
+        }
+
+        public void Dropple_Effect_2()
+        {
+            int OffsetA = 24332;
+            double PositionXA = 100;
+            double PositionYA = 450;
+            double SquareSize = 1.75;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
+            sprite.ColorHsb(OffsetA, 0, 0, 1);
+            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
+
+            int OffsetB = OffsetA + 349;
+            double PositionXB = PositionXA - 75;
+            double PositionYB = PositionYA - 15;
+            var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
+            spriteB.ColorHsb(OffsetB, 0, 0, 1);
+            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
+
+            int OffsetC = OffsetB + 349;
+            double PositionXC = PositionXB - 50;
+            double PositionYC = PositionYB + 45;
+            var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
+            spriteC.ColorHsb(OffsetB, 0, 0, 1);
+            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
+        }
+
+        public void Dropple_Effect_3()
+        {
+            int OffsetA = 26193;
+            double PositionXA = 680;
+            double PositionYA = 80;
+            double SquareSize = 1.65;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
+            sprite.ColorHsb(OffsetA, 220, .3, .9);
+            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
+
+            int OffsetB = OffsetA + 349;
+            double PositionXB = PositionXA - 75;
+            double PositionYB = PositionYA - 15;
+            var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
+            spriteB.ColorHsb(OffsetB, 220, .3, .9);
+            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
+
+            int OffsetC = OffsetB + 349;
+            double PositionXC = PositionXB - 50;
+            double PositionYC = PositionYB + 45;
+            var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
+            spriteC.ColorHsb(OffsetB, 220, .3, .9);
+            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
+        }
+
+        public void Dropple_Effect_4()
+        {
+            int OffsetA = 28053;
+            double PositionXA = 350;
+            double PositionYA = 400;
+            double SquareSize = 1.4;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
+            sprite.ColorHsb(OffsetA, 220, .3, .9);
+            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
+
+            int OffsetB = OffsetA + 349;
+            double PositionXB = PositionXA - 75;
+            double PositionYB = PositionYA - 15;
+            var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
+            spriteB.ColorHsb(OffsetB, 220, .3, .9);
+            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
+
+            int OffsetC = OffsetB + 349;
+            double PositionXC = PositionXB - 50;
+            double PositionYC = PositionYB + 45;
+            var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
+            spriteC.ColorHsb(OffsetB, 220, .3, .9);
+            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
+        }
+
+        public void Dropple_Effect_5()
+        {
+            int OffsetA = 29914;
+            double PositionXA = 720;
+            double PositionYA = 400;
+            double SquareSize = 2.4;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
+            sprite.ColorHsb(OffsetA, 155, .1, .8);
+            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
+
+            int OffsetB = OffsetA + 349;
+            double PositionXB = PositionXA - 75;
+            double PositionYB = PositionYA - 15;
+            var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
+            spriteB.ColorHsb(OffsetA, 155, .1, .8);
+            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
+
+            int OffsetC = OffsetB + 349;
+            double PositionXC = PositionXB - 50;
+            double PositionYC = PositionYB + 45;
+            var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
+            spriteC.ColorHsb(OffsetA, 155, .1, .8);
+            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
+        }
+
+        public void Dropple_Effect_6()
+        {
+            int OffsetA = 31774;
+            double PositionXA = 300;
+            double PositionYA = 400;
+            double SquareSize = 2.3;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
+            sprite.ColorHsb(OffsetA, 155, .1, .8);
+            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
+
+            int OffsetB = OffsetA + 349;
+            double PositionXB = PositionXA - 75;
+            double PositionYB = PositionYA - 15;
+            var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
+            spriteB.ColorHsb(OffsetA, 155, .1, .8);
+            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
+
+            int OffsetC = OffsetB + 349;
+            double PositionXC = PositionXB - 50;
+            double PositionYC = PositionYB + 45;
+            var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
+            spriteC.ColorHsb(OffsetA, 155, .1, .8);
+            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
+        }
+
+        public void Dropple_Effect_7()
+        {
+            int OffsetA = 33635;
+            double PositionXA = 460;
+            double PositionYA = 380;
+            double SquareSize = 1.6;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
+            sprite.ColorHsb(OffsetA, 220, .3, .9);
+            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
+
+            int OffsetB = OffsetA + 349;
+            double PositionXB = PositionXA - 75;
+            double PositionYB = PositionYA - 15;
+            var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
+            spriteB.ColorHsb(OffsetA, 220, .3, .9);
+            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
+
+            int OffsetC = OffsetB + 349;
+            double PositionXC = PositionXB - 50;
+            double PositionYC = PositionYB + 45;
+            var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
+            spriteC.ColorHsb(OffsetA, 220, .3, .9);
+            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
+        }
+
+        public void Dropple_Effect_8()
+        {
+            int OffsetA = 35495;
+            double PositionXA = 300;
+            double PositionYA = 200;
+            double SquareSize = 2;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
+            sprite.ColorHsb(OffsetA, 220, .3, .9);
+            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
+
+            int OffsetB = OffsetA + 349;
+            double PositionXB = PositionXA - 75;
+            double PositionYB = PositionYA - 15;
+            var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
+            spriteB.ColorHsb(OffsetA, 220, .3, .9);
+            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
+
+            int OffsetC = OffsetB + 349;
+            double PositionXC = PositionXB - 50;
+            double PositionYC = PositionYB + 45;
+            var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
+            spriteC.ColorHsb(OffsetA, 220, .3, .9);
+            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
         }
     }
 }
