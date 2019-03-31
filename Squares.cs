@@ -666,36 +666,37 @@ namespace StorybrewScripts
             int OffsetA = 22472;
             double PositionXA = 680;
             double PositionYA = 235;
-            double SquareSize = 1.8;
+            double SquareSize = .8;
+            float Opacity = 0.5f;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
-            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, Opacity);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, Opacity, 0);
             sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
             sprite.ColorHsb(OffsetA, 0, 0, 1);
-            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.ScaleVec(OsbEasing.InBack, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
 
             int OffsetB = OffsetA + 349;
             double PositionXB = PositionXA - 75;
             double PositionYB = PositionYA - 15;
             var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
-            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, Opacity);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, Opacity, 0);
             spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
             spriteB.ColorHsb(OffsetB, 0, 0, 1);
-            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.ScaleVec(OsbEasing.InBack, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
 
             int OffsetC = OffsetB + 349;
             double PositionXC = PositionXB - 50;
             double PositionYC = PositionYB + 45;
             var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
-            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, Opacity);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, Opacity, 0);
             spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
             spriteC.ColorHsb(OffsetB, 0, 0, 1);
-            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.ScaleVec(OsbEasing.InBack, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
         }
 
@@ -704,36 +705,37 @@ namespace StorybrewScripts
             int OffsetA = 24332;
             double PositionXA = 100;
             double PositionYA = 450;
-            double SquareSize = 1.75;
+            double SquareSize = .7;
+            float Opacity = 0.6f;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
-            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, Opacity);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, Opacity, 0);
             sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
             sprite.ColorHsb(OffsetA, 0, 0, 1);
-            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.ScaleVec(OsbEasing.InBack, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
 
             int OffsetB = OffsetA + 349;
             double PositionXB = PositionXA - 75;
             double PositionYB = PositionYA - 15;
             var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
-            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, Opacity);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, Opacity, 0);
             spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
             spriteB.ColorHsb(OffsetB, 0, 0, 1);
-            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.ScaleVec(OsbEasing.InBack, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
 
             int OffsetC = OffsetB + 349;
             double PositionXC = PositionXB - 50;
             double PositionYC = PositionYB + 45;
             var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
-            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, Opacity);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, Opacity, 0);
             spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
             spriteC.ColorHsb(OffsetB, 0, 0, 1);
-            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.ScaleVec(OsbEasing.InBack, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
         }
 
@@ -742,36 +744,37 @@ namespace StorybrewScripts
             int OffsetA = 26193;
             double PositionXA = 680;
             double PositionYA = 80;
-            double SquareSize = 1.65;
+            double SquareSize = .65;
+            float Opacity = 0.9f;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
-            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, Opacity);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, Opacity, 0);
             sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
             sprite.ColorHsb(OffsetA, 220, .3, .9);
-            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.ScaleVec(OsbEasing.InBack, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
 
             int OffsetB = OffsetA + 349;
             double PositionXB = PositionXA - 75;
             double PositionYB = PositionYA - 15;
             var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
-            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, Opacity);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, Opacity, 0);
             spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
             spriteB.ColorHsb(OffsetB, 220, .3, .9);
-            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.ScaleVec(OsbEasing.InBack, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
 
             int OffsetC = OffsetB + 349;
             double PositionXC = PositionXB - 50;
             double PositionYC = PositionYB + 45;
             var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
-            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, Opacity);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, Opacity, 0);
             spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
             spriteC.ColorHsb(OffsetB, 220, .3, .9);
-            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.ScaleVec(OsbEasing.InBack, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
         }
 
@@ -780,36 +783,37 @@ namespace StorybrewScripts
             int OffsetA = 28053;
             double PositionXA = 350;
             double PositionYA = 400;
-            double SquareSize = 1.4;
+            double SquareSize = .55;
+            float Opacity = 1f;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
-            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, Opacity);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, Opacity, 0);
             sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
             sprite.ColorHsb(OffsetA, 220, .3, .9);
-            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.ScaleVec(OsbEasing.InBack, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
 
             int OffsetB = OffsetA + 349;
             double PositionXB = PositionXA - 75;
             double PositionYB = PositionYA - 15;
             var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
-            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, Opacity);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, Opacity, 0);
             spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
             spriteB.ColorHsb(OffsetB, 220, .3, .9);
-            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.ScaleVec(OsbEasing.InBack, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
 
             int OffsetC = OffsetB + 349;
             double PositionXC = PositionXB - 50;
             double PositionYC = PositionYB + 45;
             var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
-            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, Opacity);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, Opacity, 0);
             spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
             spriteC.ColorHsb(OffsetB, 220, .3, .9);
-            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.ScaleVec(OsbEasing.InBack, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
         }
 
@@ -818,36 +822,37 @@ namespace StorybrewScripts
             int OffsetA = 29914;
             double PositionXA = 720;
             double PositionYA = 400;
-            double SquareSize = 2.4;
+            double SquareSize = .95;
+            float Opacity = 0.9f;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
-            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, Opacity);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, Opacity, 0);
             sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
             sprite.ColorHsb(OffsetA, 155, .1, .8);
-            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.ScaleVec(OsbEasing.InBack, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
 
             int OffsetB = OffsetA + 349;
             double PositionXB = PositionXA - 75;
             double PositionYB = PositionYA - 15;
             var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
-            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, Opacity);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, Opacity, 0);
             spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
             spriteB.ColorHsb(OffsetA, 155, .1, .8);
-            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.ScaleVec(OsbEasing.InBack, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
 
             int OffsetC = OffsetB + 349;
             double PositionXC = PositionXB - 50;
             double PositionYC = PositionYB + 45;
             var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
-            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, Opacity);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, Opacity, 0);
             spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
             spriteC.ColorHsb(OffsetA, 155, .1, .8);
-            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.ScaleVec(OsbEasing.InBack, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
         }
 
@@ -856,36 +861,37 @@ namespace StorybrewScripts
             int OffsetA = 31774;
             double PositionXA = 300;
             double PositionYA = 400;
-            double SquareSize = 2.3;
+            double SquareSize = .9;
+            float Opacity = 0.9f;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
-            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, Opacity);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, Opacity, 0);
             sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
             sprite.ColorHsb(OffsetA, 155, .1, .8);
-            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.ScaleVec(OsbEasing.InBack, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
 
             int OffsetB = OffsetA + 349;
             double PositionXB = PositionXA - 75;
             double PositionYB = PositionYA - 15;
             var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
-            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, Opacity);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, Opacity, 0);
             spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
             spriteB.ColorHsb(OffsetA, 155, .1, .8);
-            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.ScaleVec(OsbEasing.InBack, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
 
             int OffsetC = OffsetB + 349;
             double PositionXC = PositionXB - 50;
             double PositionYC = PositionYB + 45;
             var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
-            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, Opacity);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, Opacity, 0);
             spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
             spriteC.ColorHsb(OffsetA, 155, .1, .8);
-            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.ScaleVec(OsbEasing.InBack, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
         }
 
@@ -894,36 +900,37 @@ namespace StorybrewScripts
             int OffsetA = 33635;
             double PositionXA = 460;
             double PositionYA = 380;
-            double SquareSize = 1.6;
+            double SquareSize = .65;
+            float Opacity = 0.9f;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
-            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, Opacity);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, Opacity, 0);
             sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
             sprite.ColorHsb(OffsetA, 220, .3, .9);
-            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.ScaleVec(OsbEasing.InBack, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
 
             int OffsetB = OffsetA + 349;
             double PositionXB = PositionXA - 75;
             double PositionYB = PositionYA - 15;
             var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
-            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, Opacity);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, Opacity, 0);
             spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
             spriteB.ColorHsb(OffsetA, 220, .3, .9);
-            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.ScaleVec(OsbEasing.InBack, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
 
             int OffsetC = OffsetB + 349;
             double PositionXC = PositionXB - 50;
             double PositionYC = PositionYB + 45;
             var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
-            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, Opacity);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, Opacity, 0);
             spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
             spriteC.ColorHsb(OffsetA, 220, .3, .9);
-            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.ScaleVec(OsbEasing.InBack, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
         }
 
@@ -932,36 +939,37 @@ namespace StorybrewScripts
             int OffsetA = 35495;
             double PositionXA = 300;
             double PositionYA = 200;
-            double SquareSize = 2;
+            double SquareSize = .8;
+            float Opacity = 0.9f;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            sprite.Fade(OffsetA, OffsetA + 43, 0, .75);
-            sprite.Fade(OffsetA + 172, OffsetA + 349, .75, 0);
+            sprite.Fade(OffsetA, OffsetA + 43, 0, Opacity);
+            sprite.Fade(OffsetA + 172, OffsetA + 349, Opacity, 0);
             sprite.Move(OsbEasing.Out, OffsetA, OffsetA + 172, PositionXA, PositionYA, PositionXA, PositionYA);
             sprite.ColorHsb(OffsetA, 220, .3, .9);
-            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.ScaleVec(OsbEasing.InBack, OffsetA, OffsetA + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             sprite.Rotate(OsbEasing.Out, OffsetA, OffsetA + 86, RotationSmall, Rotation);
 
             int OffsetB = OffsetA + 349;
             double PositionXB = PositionXA - 75;
             double PositionYB = PositionYA - 15;
             var spriteB = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteB.Fade(OffsetB, OffsetB + 43, 0, .75);
-            spriteB.Fade(OffsetB + 172, OffsetB + 349, .75, 0);
+            spriteB.Fade(OffsetB, OffsetB + 43, 0, Opacity);
+            spriteB.Fade(OffsetB + 172, OffsetB + 349, Opacity, 0);
             spriteB.Move(OsbEasing.Out, OffsetB, OffsetB + 172, PositionXB, PositionYB, PositionXB, PositionYB);
             spriteB.ColorHsb(OffsetA, 220, .3, .9);
-            spriteB.ScaleVec(OsbEasing.Out, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteB.ScaleVec(OsbEasing.InBack, OffsetB, OffsetB + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteB.Rotate(OsbEasing.Out, OffsetB, OffsetB + 86, RotationSmall, Rotation);
 
             int OffsetC = OffsetB + 349;
             double PositionXC = PositionXB - 50;
             double PositionYC = PositionYB + 45;
             var spriteC = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
-            spriteC.Fade(OffsetC, OffsetC + 43, 0, .75);
-            spriteC.Fade(OffsetC + 172, OffsetC + 349, .75, 0);
+            spriteC.Fade(OffsetC, OffsetC + 43, 0, Opacity);
+            spriteC.Fade(OffsetC + 172, OffsetC + 349, Opacity, 0);
             spriteC.Move(OsbEasing.Out, OffsetC, OffsetC + 172, PositionXC, PositionYC, PositionXC, PositionYC);
             spriteC.ColorHsb(OffsetA, 220, .3, .9);
-            spriteC.ScaleVec(OsbEasing.Out, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            spriteC.ScaleVec(OsbEasing.InBack, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
         }
     }

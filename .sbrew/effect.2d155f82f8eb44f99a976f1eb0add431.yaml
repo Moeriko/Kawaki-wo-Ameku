@@ -1,0 +1,119 @@
+﻿FormatVersion: 6
+Name: "LyricsScripts"
+Script: "Lyrics"
+Config:
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  54fa56a66f5b4a9d83e78abcbeaed3b0:
+    Name: "mjk"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  57808a8a932c40c286cbbf0d2a4de549:
+    Name: "mju"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  31efb38a4dce40f383005765bafab302:
+    Name: "srd"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  07d5dbec432b4ae286509de7b6c778f4:
+    Name: "utkskar"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  a0cb5a192ab443bc9e407c1be3999095:
+    Name: "e_no"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  2b703fcdbbc44c589b5499a6bb7d9b4b:
+    Name: "e_des"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  3cb84b44a9d74f7499bd7a4fad95cb57:
+    Name: "e_ti"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  e10a40dcbbeb4248b20f11e136fe67de:
+    Name: "e_ny"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  644b1f62bb7a49ac99e0cc303e6ddb6d:
+    Name: "kwk"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  02aa0fb5d58845daaf6db54a268db7e8:
+    Name: "w"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  bbdefa1ce0064cdbad7578526f56e585:
+    Name: "amk"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  92112df165d04efa910e619587a29855:
+    Name: "kwkwamk"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  2ae0429f1d5b40debff01a81b73afc67:
+    Name: "knnnj"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  9dfecf81c5194cf392e00605818ec150:
+    Name: "kt"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  da824688973f42d0a4f0af0f93df5b4e:
+    Name: "fswskni"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  35f71503be814e8291b5db441d37acb7:
+    Name: "mntrni"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  1d177a3f300b4919981c7ef48b4c0402:
+    Name: "kri"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  609ebaa07cf241229b0c251179ca755c:
+    Name: "kttkb"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  36e8a4dd105c438291d36b9520d38284:
+    Name: "umkik"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  e24fb5119ad54c0e8c77b5e7e29583a9:
+    Name: "mnknaikt"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  74c9c93c904e4931b1d8779fdf2039f5:
+    Name: "mujkknj"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  03f98d4ccb934dfab9feb54e9179a748:
+    Name: "akt"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
