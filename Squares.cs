@@ -42,13 +42,36 @@ namespace StorybrewScripts
             Dropple_Effect_6();
             Dropple_Effect_7();
             Dropple_Effect_8();
+            Chorus_S_Square_1();
+            Chorus_T_Square_1();
+            Chorus_T_Square_2();
+            Chorus_S_Square_2();
+            Chorus_T_Square_3();
+            Chorus_T_Square_4();
+            Chorus_S_Square_3();
+            Dropple_Effect_9();
+            Chorus_S_Square_4();
+            Chorus_Line_Square_1();
+            Chorus_S_Square_5();
+            Chorus_T_Square_5();
+            Chorus_S_Square_6();
+            Chorus_T_Square_6();
+            Chorus_Line_Square_2();
+            Chorus_S_Square_7();
+            Chorus_S_Square_8();
+            Chorus_T_Square_7();
+            Chorus_S_Square_9();
+            Chorus_T_Square_8();
         }
 
         public string Sprite = "sb/sprites/white.png";
         public string Sprite2 = "sb/sprites/whiteb.png";
+        public string Sprite3 = "sb/sprites/whitebs.png";
+        public string Sprite4 = "sb/sprites/line.png";
         public double Rotation = Math.PI / 4;
         public double RotationFlipped = -1.25 * Math.PI;
         public double RotationSmall = -0.5 * Math.PI;
+        public double RotationMini = 0;
 
         public void Intro_Square()
         {
@@ -971,6 +994,317 @@ namespace StorybrewScripts
             spriteC.ColorHsb(OffsetA, 220, .3, .9);
             spriteC.ScaleVec(OsbEasing.InBack, OffsetC, OffsetC + 86, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
             spriteC.Rotate(OsbEasing.Out, OffsetC, OffsetC + 86, RotationSmall, Rotation);
+        }
+
+        public void Chorus_S_Square_1()
+        {
+            int OffsetA = 59681;
+            int OffsetB = 60611;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 460, 160, 875, 160);
+            sprite.ColorHsb(OffsetA, 300, 0, .5);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 15, 15, 15, 15);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_T_Square_1()
+        {
+            int OffsetA = 59681;
+            int OffsetB = 61542;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, .25);
+            sprite.Fade(OffsetB, OffsetB, .25, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 350, 20, 890, 20);
+            sprite.ColorHsb(OffsetA, 180, .3, .6);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 18, 18, 18, 18);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_T_Square_2()
+        {
+            int OffsetA = 59681;
+            int OffsetB = 62588;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, .25);
+            sprite.Fade(OffsetB, OffsetB, .25, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, -25, 400, 880, 400);
+            sprite.ColorHsb(OffsetA, 180, .3, .6);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 15, 15, 15, 15);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_S_Square_2()
+        {
+            int OffsetA = 59681;
+            int OffsetAA = 59914;
+            int OffsetB = 62704;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetAA, 0, .85);
+            sprite.Fade(OffsetB, OffsetB, .85, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, -10, 240, 885, 240);
+            sprite.ColorHsb(OffsetA, 345, .8, .9);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 16, 16, 16, 16);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_T_Square_3()
+        {
+            int OffsetA = 60030;
+            int OffsetB = 63867;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, .25);
+            sprite.Fade(OffsetB, OffsetB, .25, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, -185, -35, 830, -35);
+            sprite.ColorHsb(OffsetA, 180, .3, .6);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 15, 15, 15, 15);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_T_Square_4()
+        {
+            int OffsetA = 60146;
+            int OffsetB = 64797;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, .25);
+            sprite.Fade(OffsetB, OffsetB, .25, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, -275, 500, 910, 500);
+            sprite.ColorHsb(OffsetA, 180, .3, .6);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 25, 25, 25, 25);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_S_Square_3()
+        {
+            int OffsetA = 60379;
+            int OffsetAA = 60495;
+            int OffsetB = 66658;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetAA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 375, 200, 725, 200);
+            sprite.ColorHsb(OffsetA, 200, .1, .5);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 12.5, 12.5, 12.5, 12.5);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Dropple_Effect_9()
+        {
+            int OffsetA = 60379;
+            int OffsetAA = 60611;
+            int OffsetB = 60844;
+            int OffsetBB = 61076;
+            double PositionXA = 200;
+            double PositionYA = 160;
+            double SquareSize = 1.25;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite3, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, .75, .75);
+            sprite.Fade(OffsetB, OffsetBB, .75, 0);
+            sprite.Move(OsbEasing.Out, OffsetA, OffsetBB, PositionXA, PositionYA, PositionXA + 50, PositionYA);
+            sprite.ColorHsb(OffsetA, 180, .4, .9);
+            sprite.ScaleVec(OsbEasing.InBack, OffsetA, OffsetAA, SquareSize / 10, SquareSize / 10, SquareSize, SquareSize);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetAA, RotationMini, RotationMini);
+            sprite.Rotate(OsbEasing.In, OffsetAA, OffsetBB, RotationMini, Rotation);
+        }
+
+        public void Chorus_S_Square_4()
+        {
+            int OffsetA = 60611;
+            int OffsetAA = 60844;
+            int OffsetB = 66658;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetAA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, -100, 320, 260, 320);
+            sprite.ColorHsb(OffsetA, 200, .3, .8);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 12.5, 12.5, 12.5, 12.5);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_Line_Square_1()
+        {
+            int OffsetA = 60960;
+            int OffsetAA = 61076;
+            int OffsetB = 61309;
+            int OffsetBB = 61425;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite4, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetAA, 0, .5);
+            sprite.Fade(OffsetB, OffsetBB, .5, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, -250, 200, -225, 200);
+            sprite.ColorHsb(OffsetA, 0, 0, 0);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .75, .75, .75, .75);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+
+            var sprite2 = layer.CreateSprite(Sprite4, OsbOrigin.Centre);
+            sprite2.Fade(OffsetA, OffsetAA, 0, .5);
+            sprite2.Fade(OffsetB, OffsetBB, .5, 0);
+            sprite2.Move(OsbEasing.None, OffsetA, OffsetB, 280, 200, 305, 200);
+            sprite2.ColorHsb(OffsetA, 0, 0, 0);
+            sprite2.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .75, .75, .75, .75);
+            sprite2.Rotate(OsbEasing.None, OffsetA, OffsetA, -Rotation, -Rotation);
+        }
+
+        public void Chorus_S_Square_5()
+        {
+            int OffsetA = 60960;
+            int OffsetAA = 61076;
+            int OffsetB = 63402;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetAA, 0, .8);
+            sprite.Fade(OffsetB, OffsetB, .8, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 0, 100, 900, 100);
+            sprite.ColorHsb(OffsetA, 330, .6, .9);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 22.5, 22.5, 22.5, 22.5);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_T_Square_5()
+        {
+            int OffsetA = 61076;
+            int OffsetB = 64565;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, .25);
+            sprite.Fade(OffsetB, OffsetB, .25, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, -180, 200, 830, 200);
+            sprite.ColorHsb(OffsetA, 180, .3, .6);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 10, 10, 10, 10);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_S_Square_6()
+        {
+            int OffsetA = 62356;
+            int OffsetAA = 62472;
+            int OffsetB = 65728;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetAA, 0, .8);
+            sprite.Fade(OffsetB, OffsetB, .8, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 160, 350, 860, 350);
+            sprite.ColorHsb(OffsetA, 200, .9, .9);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 13.5, 13.5, 13.5, 13.5);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_T_Square_6()
+        {
+            int OffsetA = 61425;
+            int OffsetB = 65728;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, .25);
+            sprite.Fade(OffsetB, OffsetB, .25, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, -240, 310, 885, 310);
+            sprite.ColorHsb(OffsetA, 180, .3, .6);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 18.5, 18.5, 18.5, 18.5);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_Line_Square_2()
+        {
+            int OffsetA = 64565;
+            int OffsetB = 65844;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite4, OsbOrigin.Centre);
+            sprite.Fade(62239, 62239, .75, .75);
+            sprite.Fade(63518, 63518, .75, 0);
+            sprite.Move(OsbEasing.None, 62239, 63518, -350, 240, 1015, 240);
+            sprite.ColorHsb(62239, 265, .2, .4);
+            sprite.ScaleVec(OsbEasing.None, 62239, 62239, 1.5, 1.5, 1.5, 1.5);
+            sprite.Rotate(OsbEasing.None, 62239, 62239, -Rotation, -Rotation);
+
+            var sprite2 = layer.CreateSprite(Sprite4, OsbOrigin.Centre);
+            sprite2.Fade(OffsetA, OffsetA, .75, .75);
+            sprite2.Fade(OffsetB, OffsetB, .75, 0);
+            sprite2.Move(OsbEasing.None, OffsetA, OffsetB, -350, 240, 1015, 240);
+            sprite2.ColorHsb(OffsetA, 265, .2, .4);
+            sprite2.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 1.5, 1.5, 1.5, 1.5);
+            sprite2.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_S_Square_7()
+        {
+            int OffsetA = 61542;
+            int OffsetB = 66658;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, -195, 240, 0, 240);
+            sprite.ColorHsb(OffsetA, 200, .1, .5);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 13.5, 13.5, 13.5, 13.5);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_S_Square_8()
+        {
+            int OffsetA = 62704;
+            int OffsetAA = 62937;
+            int OffsetB = 66658;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetAA, 0, .9);
+            sprite.Fade(OffsetB, OffsetB, .9, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, -50, 130, 800, 130);
+            sprite.ColorHsb(OffsetA, 115, .8, .8);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 17.5, 17.5, 17.5, 17.5);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_T_Square_7() 
+        {
+            int OffsetA = 62588;
+            int OffsetB = 66658;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, .25);
+            sprite.Fade(OffsetB, OffsetB, .25, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, -335, 50, 690, 50);
+            sprite.ColorHsb(OffsetA, 180, .3, .6);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 32.5, 32.5, 32.5, 32.5);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_S_Square_9()
+        {
+            int OffsetA = 65030;
+            int OffsetAA = 65263;
+            int OffsetB = 66658;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetAA, 0, .9);
+            sprite.Fade(OffsetB, OffsetB, .9, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 0, 175, 400, 175);
+            sprite.ColorHsb(OffsetA, 270, .7, 1);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 17.5, 17.5, 17.5, 17.5);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_T_Square_8() 
+        {
+            int OffsetA = 65379;
+            int OffsetB = 66658;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, .25);
+            sprite.Fade(OffsetB, OffsetB, .25, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, -250, 400, 0, 400);
+            sprite.ColorHsb(OffsetA, 180, .3, .6);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 20, 20, 20, 20);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
         }
     }
 }
