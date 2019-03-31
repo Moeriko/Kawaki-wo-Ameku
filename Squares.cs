@@ -368,14 +368,14 @@ namespace StorybrewScripts
             var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             sprite.Fade(OffsetA, OffsetA, 0, .75);
             sprite.Fade(OffsetB, OffsetB, .75, 0);
-            sprite.Move(OsbEasing.Out, OffsetA, 42937, -300, 100, -75, 100);
+            sprite.Move(OsbEasing.OutSine, OffsetA, 42937, -300, 100, -25, 100);
             sprite.ColorHsb(OffsetA, 0, .7, .8);
             sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 15, 15, 15, 15);
-            sprite.Rotate(OsbEasing.Out, OffsetA, 42937, RotationSmall, Rotation);
+            sprite.Rotate(OsbEasing.OutSine, OffsetA, 42937, RotationSmall, Rotation);
 
             int OffsetA2 = 42937;
             int OffsetB2 = 50611;
-            sprite.Move(OsbEasing.None, OffsetA2, OffsetB2, -75, 100, 400, 100);
+            sprite.Move(OsbEasing.None, OffsetA2, OffsetB2, -25, 100, 400, 100);
             sprite.ScaleVec(OsbEasing.None, OffsetA2, OffsetB2, 15, 15, 15, 15);
 
             int OffsetA3 = 50611;
@@ -392,14 +392,14 @@ namespace StorybrewScripts
             var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             sprite.Fade(OffsetA, OffsetA, 0, 1);
             sprite.Fade(OffsetB, OffsetB, 1, 0);
-            sprite.Move(OsbEasing.Out, OffsetA, 44797, -300, 250, -75, 250);
+            sprite.Move(OsbEasing.OutSine, OffsetA, 44797, -300, 250, 0, 250);
             sprite.ColorHsb(OffsetA, 185, .5, .7);
             sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 22.5, 22.5, 22.5, 22.5);
-            sprite.Rotate(OsbEasing.Out, OffsetA, 44797, RotationSmall, Rotation);
+            sprite.Rotate(OsbEasing.OutSine, OffsetA, 44797, RotationSmall, Rotation);
 
             int OffsetA2 = 44797;
             int OffsetB2 = 50611;
-            sprite.Move(OsbEasing.None, OffsetA2, OffsetB2, -75, 250, 170, 250);
+            sprite.Move(OsbEasing.None, OffsetA2, OffsetB2, 0, 250, 170, 250);
             sprite.ScaleVec(OsbEasing.None, OffsetA2, OffsetB2, 22.5, 22.5, 22.5, 22.5);
 
             int OffsetA3 = 50611;
