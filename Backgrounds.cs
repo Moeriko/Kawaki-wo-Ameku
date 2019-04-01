@@ -176,33 +176,33 @@ namespace StorybrewScripts
         public void Chorus_White_BG()
         {
             int OffsetA = 66890;
-            int OffsetB = 67123;
+            int OffsetB = 67007;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             sprite.Fade(OffsetA, OffsetA, 0, 1);
             sprite.Fade(OffsetB, OffsetB, 1, 0);
             sprite.Move(OsbEasing.None, OffsetA, OffsetA, 320, 240, 320, 240);
-            sprite.ColorHsb(OffsetA, 0, 0, 1);
+            sprite.ColorHsb(OffsetA, 0, 0, .9);
             sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 86, 48, 86, 48);
             sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, 0, 0);
 
-            int OffsetA2 = 68053;
-            int OffsetB2 = 68286;
+            int OffsetA2 = 67937;
+            int OffsetB2 = 68170;
             sprite.Fade(OffsetA2, OffsetA2, 0, 1);
             sprite.Fade(OffsetB2, OffsetB2, 1, 0);
 
-            int OffsetA3 = 68751;
-            int OffsetB3 = 68983;
+            int OffsetA3 = 68635;
+            int OffsetB3 = 68751;
             sprite.Fade(OffsetA3, OffsetA3, 0, 1);
             sprite.Fade(OffsetB3, OffsetB3, 1, 0);
 
             int OffsetA4 = 70146;
-            int OffsetB4 = 70379;
+            int OffsetB4 = 70263;
             sprite.Fade(OffsetA4, OffsetA4, 0, 1);
             sprite.Fade(OffsetB4, OffsetB4, 1, 0);
 
-            int OffsetA5 = 70844;
-            int OffsetB5 = 71309;
+            int OffsetA5 = 70728;
+            int OffsetB5 = 71193;
             sprite.Fade(OffsetA5, OffsetA5, 0, 1);
             sprite.Fade(OffsetB5, OffsetB5, 1, 0);
         }
