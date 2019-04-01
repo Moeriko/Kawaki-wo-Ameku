@@ -162,7 +162,7 @@ namespace StorybrewScripts
         public void Chorus_Gray_BG()
         {
             int OffsetA = 66658;
-            int OffsetB = 73635;
+            int OffsetB = 73402;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             sprite.Fade(OffsetA, OffsetA, 0, 1);
@@ -209,14 +209,14 @@ namespace StorybrewScripts
 
         public void Chorus_Outro_Blue_BG()
         {
-            int Offset = 73635;
+            int Offset = 73402;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             sprite.Fade(Offset, Offset, 0, 1);
             sprite.Fade(85728, 89332, 1, 0);
             sprite.Move(OsbEasing.None, Offset, Offset, 320, 240, 320, 240);
-            sprite.ColorHsb(Offset, 220, .4, .2);
-            sprite.ColorHsb(78286, 82007, 220, .4, .2, 215, .4, .8);
+            sprite.ColorHsb(Offset, 220, .4, .4);
+            sprite.ColorHsb(78286, 82007, 220, .4, .4, 220, .4, .8);
             sprite.ScaleVec(OsbEasing.None, Offset, Offset, 86, 48, 86, 48);
             sprite.Rotate(OsbEasing.None, Offset, Offset, 0, 0);
         }

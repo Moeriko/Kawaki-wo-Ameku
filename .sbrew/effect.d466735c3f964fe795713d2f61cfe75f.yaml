@@ -242,3 +242,8 @@ Layers:
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
+  8a649bb4380a43c0936e88189842c3ac:
+    Name: "Chorus_Transition_Square"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

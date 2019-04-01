@@ -62,6 +62,7 @@ namespace StorybrewScripts
             Chorus_T_Square_7();
             Chorus_S_Square_9();
             Chorus_T_Square_8();
+            Chorus_Transition_Square();
         }
 
         public string Sprite = "sb/sprites/white.png";
@@ -1329,6 +1330,25 @@ namespace StorybrewScripts
             sprite.ColorHsb(OffsetA, 180, .3, .6);
             sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 20, 20, 20, 20);
             sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_Transition_Square()
+        {
+            int OffsetA = 73402;
+            int OffsetB = 74100;
+            int OffsetC = 74332;
+            int OffsetD = 75263;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, 1);
+            sprite.Fade(OffsetD, OffsetD, 1, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetA, 320, 240, 320, 240);
+            sprite.Move(OsbEasing.In, OffsetC, OffsetD, 320, 240, 1280, 240);
+            sprite.ColorHsb(OffsetA, 0, .1, .15);
+            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetB, 95, 95, 75, 75);
+            sprite.ScaleVec(OsbEasing.None, OffsetC, OffsetD, 75, 75, 75, 75);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+            sprite.Rotate(OsbEasing.In, OffsetC, OffsetD, Rotation, -RotationFlipped);
         }
     }
 }
