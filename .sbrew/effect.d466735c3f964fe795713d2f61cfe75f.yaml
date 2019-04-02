@@ -242,8 +242,143 @@ Layers:
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
+  b37791ddd9254823bb693683df15b044:
+    Name: "Chorus_Spin_Square_2"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  2d09aad39a5e4950bc8dfeda2fe2b773:
+    Name: "Chorus_T_Square_9"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  14b88bfd1475457b8bd7c1f7b0a8e254:
+    Name: "Chorus_Spin_Square_1"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
   8a649bb4380a43c0936e88189842c3ac:
     Name: "Chorus_Transition_Square"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  e872d604841141c08d0a86aff0a144ef:
+    Name: "Chorus_T_Square_10"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  927d0b636f6f4b71841b4654542dbed7:
+    Name: "Chorus_T_Square_11"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  c40b90f9a01e4928a52552238edf8843:
+    Name: "Chorus_T_Square_12"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  3ae029f3c0aa43959d9c7d5920350b0f:
+    Name: "Chorus_T_Square_13"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  4dcb79da3baa46e4bfbe0b4d1f8c3537:
+    Name: "Chorus_Spin_Square_3"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  c93f3346f7504d2aa8d14fa4c07090fe:
+    Name: "Chorus_Spin_Square_4"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  d261b6323229489b8576a189c8b1681f:
+    Name: "Chorus_T_Square_14"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  3fc23fd37cf7489b9bd128e49acd0cf0:
+    Name: "Chorus_T_Square_15"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  c96586bc46c842c59a081e48faaa1742:
+    Name: "Chorus_T_Square_16"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  81ca779461d24cfbae9018935e66f776:
+    Name: "Chorus_T_Square_17"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  6660b968bc2b455e8b15fa7ee88cca8a:
+    Name: "Chorus_S_Square_10"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  08048cea71ad4480b3ee6deff943ee1f:
+    Name: "Chorus_T_Square_18"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  b8ab6e56ff234f70bd0b51536ce8c9ea:
+    Name: "Chorus_T_Square_19"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  4bd5e6ba778c406896dc73e4779cb8a5:
+    Name: "Chorus_Line_Square_3"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  88638d33f11d4d2ca38ad8a082f90fae:
+    Name: "Chorus_T_Square_20"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  62cb7be131b8445dabe220c75c1ae5c6:
+    Name: "Chorus_S_Square_11"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  0bfa33a72eb04c818ffda74f1ca08dc6:
+    Name: "Chorus_T_Square_21"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  f438e67acf2449448e93de8104bb096b:
+    Name: "Chorus_T_Square_22"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  74bf5e9b41c84e71a952e716e2ff29d9:
+    Name: "Chorus_T_Square_23"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  7c2b89faeba142c8a1d6d9c4a8a5e4f3:
+    Name: "Chorus_T_Square_24"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  3fb1310aebf942118bed72418131bd65:
+    Name: "Chorus_T_Square_25"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  559c0472d69b44239a1a8dcb63d679a3:
+    Name: "Chorus_T_Square_26"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  aeef13e9c8d8440cb2b56bacef13ee3d:
+    Name: "Chorus_S_Square_12"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  245ab021aa1740c391de655e8dcf9190:
+    Name: "Chorus_Transition_Square_Inner"
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
