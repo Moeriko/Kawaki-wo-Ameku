@@ -382,3 +382,8 @@ Layers:
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
+  f6af51477dee4f0c8e59d50d44447d95:
+    Name: "Post_Intro_Square_7_A"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

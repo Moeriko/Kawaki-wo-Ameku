@@ -24,6 +24,7 @@ namespace StorybrewScripts
             Post_Intro_Square_5();
             Post_Intro_Square_6();
             Post_Intro_Square_7();
+            Post_Intro_Square_7_A();
             Post_Intro_Square_8();
             Post_Intro_Square_9();
             Post_Intro_Square_10();
@@ -362,6 +363,24 @@ namespace StorybrewScripts
             int OffsetB3 = 51542;
             sprite.Move(OsbEasing.None, OffsetA3, OffsetB3, 600, 100, 900, -250);
             sprite.ScaleVec(OsbEasing.Out, OffsetA3, OffsetB3, 22.5, 22.5, 50, 50);
+        }
+
+        public void Post_Intro_Square_7_A()
+        {
+            int OffsetA = 39216;
+            int OffsetB = 39449;
+            int OffsetC = 50379;
+            int OffsetD = 50611;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+
+            sprite.Fade(OffsetA, OffsetB, 0, 1);
+            sprite.Fade(OffsetC, OffsetD, 1, 0);
+
+            sprite.Move(OsbEasing.None, OffsetA, OffsetD, 320, 80, 645, 80);
+            sprite.ColorHsb(OffsetA, 20, .3, .35);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 7.5, 7.5, 7.5, 7.5);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, 1.25, 1.25);
         }
 
         public void Post_Intro_Square_8()
