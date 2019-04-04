@@ -33,6 +33,8 @@ namespace StorybrewScripts
             Post_Intro_Cyan_Grid_Square();
             Pre_Chorus_Square_1();
             Pre_Chorus_Square_2();
+            Pre_Chorus_Lyric_Square_1();
+            Pre_Chorus_Lyric_Square_2();
             Pre_Chorus_Gap_Closer();
             Pre_Chorus_Gap_Line();
             Dropple_Effect_1();
@@ -698,6 +700,35 @@ namespace StorybrewScripts
             sprite2.Rotate(OsbEasing.None, OffsetA, OffsetB, Rotation, Rotation);
         }
 
+        public void Pre_Chorus_Lyric_Square_1()
+        {
+            int OffsetA = 52239;
+            int OffsetAA = 52704;
+            int OffsetB = 52937;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 320, 240, 320, 240);
+            sprite.ColorHsb(OffsetA, 0, 0, 1);
+            sprite.ColorHsb(OffsetAA, 0, 0, 0);
+            sprite.ScaleVec(OsbEasing.In, OffsetA, OffsetB, 5, 25, 5, 20);
+        }
+
+        public void Pre_Chorus_Lyric_Square_2()
+        {
+            int OffsetA = 52937;
+            int OffsetAA = 53170;
+            int OffsetB = 55263;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 320, 240, 320, 240);
+            sprite.ColorHsb(OffsetA, 0, 0, 1);
+            sprite.ScaleVec(OsbEasing.InQuart, OffsetA, OffsetAA, 12.5, 0, 12.5, 35);
+        }
+
         public void Pre_Chorus_Gap_Closer()
         {
             int OffsetA = 54797;
@@ -726,7 +757,7 @@ namespace StorybrewScripts
             var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             sprite.Fade(OffsetA, OffsetA, 0, 1);
             sprite.Fade(OffsetB, OffsetB, 1, 0);
-            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 1180, 240, 540, 240);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 1180, 240, 525, 240);
             sprite.ColorHsb(OffsetA, 0, 0, 1);
             sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 86, .25, 86, .25);
         }

@@ -45,6 +45,10 @@ namespace StorybrewScripts
             kttit();
             krijhknnngir();
             snntkrmwrtk();
+            mu();
+            kkaktndy();
+            snsrf();
+            cuthnpdkhiy();
         }
 
         public string Path = "sb/lyrics/";
@@ -686,6 +690,88 @@ namespace StorybrewScripts
             sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .225, .225, .225, .225);
             sprite2.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .25, .25, .25, .25);
             sprite3.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .275, .275, .275, .275);
+        }
+
+        public void mu()
+        {
+            string Lyric = "mou";
+
+            string Sprite = Path + Lyric + ".png";
+
+            int OffsetA = 52239;
+            int OffsetAA = 52704;
+            int OffsetB = 52937;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+
+            sprite.Fade(OffsetA, OffsetA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.ColorHsb(OffsetA, 0, 0, 0);
+            sprite.ColorHsb(OffsetAA, 0, 0, 1);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 320, 240, 320, 240);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .2, .2, .2, .2);
+        }
+
+        public void kkaktndy()
+        {
+            string Lyric = "kikiakitandayo";
+
+            string Sprite = Path + Lyric + ".png";
+
+            int OffsetA = 53170;
+            int OffsetAA = 53402;
+            int OffsetB = 55263;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+
+            sprite.Fade(OffsetA, OffsetAA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.ColorHsb(OffsetA, 0, 0, 1);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 345, 240, 345, 240);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .35, .4, .35, .4);
+        }
+
+        public void snsrf()
+        {
+            string Lyric = "sonoserifu";
+
+            string Sprite = Path + Lyric + ".png";
+
+            int OffsetA = 53867;
+            int OffsetAA = 54100;
+            int OffsetB = 55263;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+
+            sprite.Fade(OffsetA, OffsetAA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.ColorHsb(OffsetA, 0, 0, 1);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 295, 240, 295, 240);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .35, .4, .35, .4);
+        }
+
+        public void cuthnpdkhiy()
+        {
+            string Lyric = "chuutohanpadakeha";
+            string Lyric2 = "iya";
+
+            string Sprite = Path + Lyric + ".png";
+            string Sprite2 = Path + Lyric2 + ".png";
+
+            int OffsetA = 55263;
+            int OffsetB = 58518;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            var sprite2 = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
+
+            sprite.Fade(OffsetA, OffsetA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.ColorHsb(OffsetA, 0, 0, 1);
+            sprite2.ColorHsb(57356, 57588, 0, 0, 1, 0, .9, .7);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 160, 220, 160, 220);
+            sprite2.Move(OsbEasing.None, OffsetA, OffsetB, 270, 215, 287.5, 215);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetB, .25, .25, .275, .25);
+            sprite2.ScaleVec(OsbEasing.None, OffsetA, OffsetB, .5, .5, .5, .5);
         }
     }
 }

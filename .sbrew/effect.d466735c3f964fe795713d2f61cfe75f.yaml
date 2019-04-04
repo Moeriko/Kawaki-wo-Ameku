@@ -97,16 +97,6 @@ Layers:
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
-  9de2d2e7f5c244c68e7ce14fb91cf34d:
-    Name: "Pre_Chorus_Gap_Closer"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
-  02529d67251249c4bdb25423eb1c355f:
-    Name: "Pre_Chorus_Gap_Line"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
   e0a13938ac0d4e64986a0c64d43e2bc8:
     Name: "Dropple_Effect_1"
     OsbLayer: Background
@@ -384,6 +374,26 @@ Layers:
     Visible: Yes
   f6af51477dee4f0c8e59d50d44447d95:
     Name: "Post_Intro_Square_7_A"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  7453fc7ad3624b1d81cefd2940367578:
+    Name: "Pre_Chorus_Lyric_Square_1"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  1c32033707d248658909229b4f4f9e04:
+    Name: "Pre_Chorus_Lyric_Square_2"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  9de2d2e7f5c244c68e7ce14fb91cf34d:
+    Name: "Pre_Chorus_Gap_Closer"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  02529d67251249c4bdb25423eb1c355f:
+    Name: "Pre_Chorus_Gap_Line"
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
