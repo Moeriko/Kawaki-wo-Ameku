@@ -49,6 +49,7 @@ namespace StorybrewScripts
             kkaktndy();
             snsrf();
             cuthnpdkhiy();
+            mui();
         }
 
         public string Path = "sb/lyrics/";
@@ -759,19 +760,40 @@ namespace StorybrewScripts
             string Sprite2 = Path + Lyric2 + ".png";
 
             int OffsetA = 55263;
-            int OffsetB = 58518;
+            int OffsetB = 55495;
+            int OffsetC = 58518;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             var sprite2 = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
 
+            sprite.Fade(OffsetA, OffsetB, 0, 1);
+            sprite.Fade(OffsetC, OffsetC, 1, 0);
+            sprite2.Fade(OffsetA, OffsetB, 0, 1);
+            sprite2.Fade(OffsetC, OffsetC, 1, 0);
+            sprite.ColorHsb(OffsetA, 0, 0, 1);
+            sprite2.ColorHsb(57356, 57588, 0, 0, 1, 0, .9, .7);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetC, 160, 220, 160, 220);
+            sprite2.Move(OsbEasing.None, OffsetA, OffsetC, 270, 215, 287.5, 215);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetC, .25, .25, .275, .25);
+            sprite2.ScaleVec(OsbEasing.None, OffsetA, OffsetC, .5, .5, .5, .5);
+        }
+
+        public void mui()
+        {
+            string Lyric = "mouii";
+
+            string Sprite = Path + Lyric + ".png";
+
+            int OffsetA = 58518;
+            int OffsetB = 59681;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+
             sprite.Fade(OffsetA, OffsetA, 0, 1);
             sprite.Fade(OffsetB, OffsetB, 1, 0);
             sprite.ColorHsb(OffsetA, 0, 0, 1);
-            sprite2.ColorHsb(57356, 57588, 0, 0, 1, 0, .9, .7);
-            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 160, 220, 160, 220);
-            sprite2.Move(OsbEasing.None, OffsetA, OffsetB, 270, 215, 287.5, 215);
-            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetB, .25, .25, .275, .25);
-            sprite2.ScaleVec(OsbEasing.None, OffsetA, OffsetB, .5, .5, .5, .5);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 480, 240, 480, 240);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetB, .3, .3, .325, .3);
         }
     }
 }
