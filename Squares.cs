@@ -46,6 +46,7 @@ namespace StorybrewScripts
             Dropple_Effect_7();
             Dropple_Effect_8();
             Chorus_S_Square_1();
+            Chorus_S_Square_1_Inner();
             Chorus_T_Square_1();
             Chorus_T_Square_2();
             Chorus_S_Square_2();
@@ -65,6 +66,7 @@ namespace StorybrewScripts
             Chorus_T_Square_7();
             Chorus_S_Square_9();
             Chorus_T_Square_8();
+            Chorus_Spin_Transition_Square();
             Chorus_Transition_Square();
             Chorus_Transition_Square_Inner();
             Chorus_Spin_Square_1();
@@ -1112,6 +1114,20 @@ namespace StorybrewScripts
             sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
         }
 
+        public void Chorus_S_Square_1_Inner()
+        {
+            int OffsetA = 59681;
+            int OffsetB = 60611;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 460, 160, 875, 160);
+            sprite.ColorHsb(OffsetA, 20, .5, .6);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 7.5, 7.5, 7.5, 7.5);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, -.1, -.1);
+        }
+
         public void Chorus_T_Square_1()
         {
             int OffsetA = 59681;
@@ -1407,6 +1423,20 @@ namespace StorybrewScripts
             sprite.ColorHsb(OffsetA, 180, .3, .6);
             sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 20, 20, 20, 20);
             sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+        }
+
+        public void Chorus_Spin_Transition_Square()
+        {
+            int OffsetA = 66193;
+            int OffsetB = 66658;
+            var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
+            var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
+            sprite.Fade(OffsetA, OffsetA, 0, 1);
+            sprite.Fade(OffsetB, OffsetB, 1, 0);
+            sprite.Move(OsbEasing.None, OffsetA, OffsetB, -800, 240, 320, 240);
+            sprite.ColorHsb(OffsetA, 0, .1, .15);
+            sprite.ScaleVec(OsbEasing.Out, OffsetA, OffsetB, 100, 100, 100, 100);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetB, -1, 0);
         }
 
         public void Chorus_Transition_Square()
