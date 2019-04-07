@@ -20,14 +20,38 @@ namespace StorybrewScripts
 /* StartTime */                 14565,
 /* StartRainFadeInStart */      15030,
 /* StartRainFadeInEnd */        15030,
-/* FinishRainFadeOutStart */    16890,
-/* EndTime */                   16890,
-/* RainOpacity */               .5f,
-/* RainCount */                 30,
-/* LoopCount */                 3,
+/* FinishRainFadeOutStart */    20611,
+/* EndTime */                   20611,
+/* RainOpacity */               .25f,
+/* RainCount */                 100,
+/* LoopCount */                 100,
 /* PositionXMin */              25,
 /* PositionXMax */              25,
-/* ScaleXMin */                 .5,
+/* ScaleXMin */                 .25,
+/* ScaleXMax */                 .75,
+/* ScaleYMin */                 100,
+/* ScaleYMax */                 250,
+/* MinDuration */               500,
+/* MaxDuration */               1000,
+/* Hue */                       0,
+/* Saturation */                0,
+/* Brightness */                0,
+/* Additive */                  false,
+/* LayerName */                 "IntroRain 1"
+            );
+
+            Rain(
+/* StartTime */                 20146,
+/* StartRainFadeInStart */      20611,
+/* StartRainFadeInEnd */        20611,
+/* FinishRainFadeOutStart */    21542,
+/* EndTime */                   21774,
+/* RainOpacity */               .25f,
+/* RainCount */                 200,
+/* LoopCount */                 100,
+/* PositionXMin */              25,
+/* PositionXMax */              25,
+/* ScaleXMin */                 .25,
 /* ScaleXMax */                 1,
 /* ScaleYMin */                 100,
 /* ScaleYMax */                 250,
@@ -36,7 +60,128 @@ namespace StorybrewScripts
 /* Hue */                       0,
 /* Saturation */                0,
 /* Brightness */                0,
-/* Additive */                  false
+/* Additive */                  false,
+/* LayerName */                 "IntroRain 2"
+            );
+
+            Rain(
+/* StartTime */                 21076,
+/* StartRainFadeInStart */      21542,
+/* StartRainFadeInEnd */        21542,
+/* FinishRainFadeOutStart */    50611,
+/* EndTime */                   51425,
+/* RainOpacity */               .25f,
+/* RainCount */                 160,
+/* LoopCount */                 100,
+/* PositionXMin */              -30,
+/* PositionXMax */              80,
+/* ScaleXMin */                 .25,
+/* ScaleXMax */                 .75,
+/* ScaleYMin */                 25,
+/* ScaleYMax */                 75,
+/* MinDuration */               750,
+/* MaxDuration */               1500,
+/* Hue */                       0,
+/* Saturation */                0,
+/* Brightness */                100,
+/* Additive */                  false,
+/* LayerName */                 "Post-Intro Rain"
+            );
+
+            Rain(
+/* StartTime */                 52472,
+/* StartRainFadeInStart */      52937,
+/* StartRainFadeInEnd */        52937,
+/* FinishRainFadeOutStart */    55263,
+/* EndTime */                   55263,
+/* RainOpacity */               .5f,
+/* RainCount */                 180,
+/* LoopCount */                 100,
+/* PositionXMin */              10,
+/* PositionXMax */              10,
+/* ScaleXMin */                 .1,
+/* ScaleXMax */                 .5,
+/* ScaleYMin */                 25,
+/* ScaleYMax */                 100,
+/* MinDuration */               100,
+/* MaxDuration */               200,
+/* Hue */                       0,
+/* Saturation */                0,
+/* Brightness */                0,
+/* Additive */                  false,
+/* LayerName */                 "Post-Intro Transition Rain"
+            );
+
+            Rain(
+/* StartTime */                 59216,
+/* StartRainFadeInStart */      59681,
+/* StartRainFadeInEnd */        59681,
+/* FinishRainFadeOutStart */    81774,
+/* EndTime */                   82007,
+/* RainOpacity */               .5f,
+/* RainCount */                 300,
+/* LoopCount */                 1000,
+/* PositionXMin */              -300,
+/* PositionXMax */              400,
+/* ScaleXMin */                 .1,
+/* ScaleXMax */                 1,
+/* ScaleYMin */                 25,
+/* ScaleYMax */                 150,
+/* MinDuration */               100,
+/* MaxDuration */               250,
+/* Hue */                       0,
+/* Saturation */                0,
+/* Brightness */                100,
+/* Additive */                  false,
+/* LayerName */                 "Chorus Rain Main 1"
+            );
+
+            Rain(
+/* StartTime */                 65728,
+/* StartRainFadeInStart */      66193,
+/* StartRainFadeInEnd */        66658,
+/* FinishRainFadeOutStart */    73635,
+/* EndTime */                   74100,
+/* RainOpacity */               .5f,
+/* RainCount */                 240,
+/* LoopCount */                 1000,
+/* PositionXMin */              25,
+/* PositionXMax */              25,
+/* ScaleXMin */                 .1,
+/* ScaleXMax */                 .5,
+/* ScaleYMin */                 25,
+/* ScaleYMax */                 100,
+/* MinDuration */               100,
+/* MaxDuration */               250,
+/* Hue */                       0,
+/* Saturation */                0,
+/* Brightness */                100,
+/* Additive */                  false,
+/* LayerName */                 "Chorus Transition Rain"
+            );
+
+            Rain(
+/* StartTime */                 81309,
+/* StartRainFadeInStart */      81774,
+/* StartRainFadeInEnd */        82007,
+/* FinishRainFadeOutStart */    85728,
+/* EndTime */                   89332,
+/* RainOpacity */               .5f,
+/* RainCount */                 120,
+/* LoopCount */                 1000,
+/* PositionXMin */              25,
+/* PositionXMax */              25,
+/* ScaleXMin */                 .1,
+/* ScaleXMax */                 .5,
+/* ScaleYMin */                 25,
+/* ScaleYMax */                 100,
+/* MinDuration */               100,
+/* MaxDuration */               250,
+/* Hue */                       0,
+/* Saturation */                0,
+/* Brightness */                100,
+/* Additive */                  false,
+/* LayerName */                 "Chorus Main Rain 2"
             );
         }
 
@@ -72,27 +217,28 @@ namespace StorybrewScripts
             int Brightness,
 
             // additive
-            bool Additive
-        )
-        {
+            bool Additive,
+
+            string LayerName
+        ){
             for (var i = 0; i < RainCount; i++)
             {
                 // function general settings
                 string SpritePath = "sb/sprites/white.png";
-                var Sprite = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name).CreateSprite(SpritePath, OsbOrigin.Centre);
+                var Sprite = GetLayer(LayerName).CreateSprite(SpritePath, OsbOrigin.Centre);
 
                 // fixed variable values
                 int Offset = 0;
                 double ScaleX = .1;
                 double ScaleY = .1;
-                double SaturationConv = Saturation / 10;
-                double BrightnessConv = Brightness / 10;
+                double SaturationConv = Saturation / 100;
+                double BrightnessConv = Brightness / 100;
 
                 // move speed
                 double RainDuration = Random(MinDuration, MaxDuration);
 
                 // sprite positioning
-                double StartPostionX = Random(-107, 747);
+                double StartPostionX = Random(-107 - PositionXMax, 747 + PositionXMax);
                 double StartPositionY = 0 - ScaleYMax * 2;
                 double EndPositionX = Random(StartPostionX - PositionXMin, StartPostionX + PositionXMax); // randomize the ending position of x
                 double EndPositionY = 480 + ScaleYMax * 2;
@@ -101,8 +247,6 @@ namespace StorybrewScripts
                 double DeltaX = EndPositionX - StartPostionX; // diff in x
                 double DeltaY = EndPositionY - StartPositionY; // diff in y
                 double RotationRad = Math.Atan2(DeltaY, DeltaX); // delta result in radians
-                string logrr = RotationRad.ToString();
-                Log(logrr);
 
                 // start loop
                 Sprite.StartLoopGroup(Random(StartTime, (EndTime - MaxDuration)), LoopCount);
@@ -128,31 +272,3 @@ namespace StorybrewScripts
         }
     }
 }
-
-// Template
-// Rain(
-// /* StartTime */                 14565,
-// /* StartRainFadeInStart */      15030,
-// /* StartRainFadeInEnd */        15030,
-// /* FinishRainFadeOutStart */    16890,
-// /* EndTime */                   16890,
-// /* RainOpacity */               1,
-// /* RainCount */                 400,
-// /* LoopCount */                 400,
-// /* PositionXMin */              25,
-// /* PositionXMax */              25,
-// /* PositionYMin */              10,
-// /* PositionYMax */              10,
-// /* ScaleXMin */                 1,
-// /* ScaleXMax */                 5,
-// /* ScaleYMin */                 250,
-// /* ScaleYMax */                 750,
-// /* EndY */                      490,
-// /* RandomEndY */                true,
-// /* MinDuration */               100,
-// /* MaxDuration */               250,
-// /* Hue */                       0,
-// /* Saturation */                0,
-// /* Brightness */                0,
-// /* Additive */                  false
-// );

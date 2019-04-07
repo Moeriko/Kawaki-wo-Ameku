@@ -42,16 +42,6 @@ Layers:
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
-  d2b4707b12314d40a44206938d19fa7d:
-    Name: "Chorus_Gray_BG"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
-  e47f861dbee24bd98f26ec0bf2ccf051:
-    Name: "Chorus_White_BG"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
   8bde21d1fd1b4f0c8e64dac2dce3e108:
     Name: "Outro_Black_BG"
     OsbLayer: Background
@@ -62,13 +52,23 @@ Layers:
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
+  31eccdbe75854bd78bb4b52639b32796:
+    Name: "BuildUp_White_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
   446248dfb0ab4e15882ca7a2d76620ce:
     Name: "Post_Intro_Black_BG"
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
-  31eccdbe75854bd78bb4b52639b32796:
-    Name: "BuildUp_White_BG"
+  d2b4707b12314d40a44206938d19fa7d:
+    Name: "Chorus_Gray_BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  e47f861dbee24bd98f26ec0bf2ccf051:
+    Name: "Chorus_White_BG"
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes

@@ -117,11 +117,6 @@ Layers:
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
-  5b9d8161fd814ed2b78f81b3ef08a1eb:
-    Name: "ksk"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
   34822a34550b4a9cbf026f4a407d9593:
     Name: "ksk_2"
     OsbLayer: Background
@@ -157,21 +152,6 @@ Layers:
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
-  dafa4008d04348f8a92ef614c58a7f81:
-    Name: "kkaktndy"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
-  314ffbe89b764285b65df4605ea3570f:
-    Name: "snsrf"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
-  dd346067d4ba473abae90ba10e106516:
-    Name: "cuthnpdkhiy"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
   a4c66d3ece5c449a87234f4ca8c3d2be:
     Name: "mui"
     OsbLayer: Background
@@ -202,38 +182,8 @@ Layers:
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
-  a80e97844d55486bb7837094c7c1ade1:
-    Name: "omimsni"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
-  5bf2f23d9017449ab59da9125cb7c4f7:
-    Name: "oi"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
-  d665389f2bf142eab323fb7c694a0c33:
-    Name: "omiktb"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
-  6394026c46ab4d6d95dc5eb0e2f19eda:
-    Name: "nnd"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
-  1ccd4b3b8b5a4be8822a454c8fa03368:
-    Name: "tkifrsnk"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
   4e06323960fb4f9fbb101a48e31462f0:
     Name: "ktisttnddkresdm"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
-  090394dbe3fe4a33815df173d1a9b903:
-    Name: "dus"
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
@@ -259,6 +209,56 @@ Layers:
     Visible: Yes
   854124259a5342a0bb22ddb218e6341c:
     Name: "amfrnidy"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  5b9d8161fd814ed2b78f81b3ef08a1eb:
+    Name: "ksk"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  dafa4008d04348f8a92ef614c58a7f81:
+    Name: "kkaktndy"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  314ffbe89b764285b65df4605ea3570f:
+    Name: "snsrf"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  dd346067d4ba473abae90ba10e106516:
+    Name: "cuthnpdkhiy"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  a80e97844d55486bb7837094c7c1ade1:
+    Name: "omimsni"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  5bf2f23d9017449ab59da9125cb7c4f7:
+    Name: "oi"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  d665389f2bf142eab323fb7c694a0c33:
+    Name: "omiktb"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  6394026c46ab4d6d95dc5eb0e2f19eda:
+    Name: "nnd"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  1ccd4b3b8b5a4be8822a454c8fa03368:
+    Name: "tkifrsnk"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  090394dbe3fe4a33815df173d1a9b903:
+    Name: "dus"
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes

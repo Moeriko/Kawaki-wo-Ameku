@@ -70,6 +70,8 @@ namespace StorybrewScripts
         }
 
         public string Path = "sb/lyrics/";
+        public double Rotation = 0;
+        public double RotationFlipped = -1.25 * Math.PI - Math.PI / 4;
 
         public void mjk()
         {
@@ -533,6 +535,9 @@ namespace StorybrewScripts
             sprite2.Move(OsbEasing.Out, OffsetA, OffsetB, 460, 100, 480, 100);
             sprite3.Move(OsbEasing.None, OffsetA, OffsetB, 160, 400, 160, 400);
             sprite4.Move(OsbEasing.None, OffsetA, OffsetB, 480, 400, 480, 400);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .5, .5, .5, .5);
+            sprite2.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .5, .5, .5, .5);
+            sprite3.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .5, .5, .5, .5);
             sprite4.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .5, .5, .5, .5);
         }
 
@@ -570,9 +575,9 @@ namespace StorybrewScripts
             sprite2.Move(OsbEasing.None, OffsetA, OffsetC, 415, 230, 700, 230);
             sprite3.Move(OsbEasing.None, OffsetA, OffsetC, 415, 270, 700, 270);
             sprite4.Move(OsbEasing.None, OffsetA, OffsetC, 440, 230, 725, 230);
-            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .35, .35, .35, .35);
-            sprite2.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .35, .35, .35, .35);
-            sprite3.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .35, .35, .35, .35);
+            sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .175, .175, .175, .175);
+            sprite2.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .175, .175, .175, .175);
+            sprite3.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .175, .175, .175, .175);
             sprite4.ScaleVec(OsbEasing.None, OffsetA, OffsetA, .15, .15, .15, .15);
         }
 
@@ -1041,30 +1046,29 @@ namespace StorybrewScripts
             int OffsetA = 70146;
             int OffsetB = 70263;
             int OffsetC = 70379;
-            int OffsetD = 70611;
-            int OffsetE = 70728;
+            int OffsetD = 70728;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
             var sprite2 = layer.CreateSprite(Sprite2, OsbOrigin.Centre);
 
             sprite.Fade(OffsetA, OffsetA, 0, 1);
-            sprite.Fade(OffsetE, OffsetE, 1, 0);
+            sprite.Fade(OffsetD, OffsetD, 1, 0);
             sprite2.Fade(OffsetA, OffsetA, 0, 1);
-            sprite2.Fade(OffsetE, OffsetE, 1, 0);
+            sprite2.Fade(OffsetD, OffsetD, 1, 0);
             sprite.ColorHsb(OffsetA, 0, 0, 0);
             sprite.ColorHsb(OffsetB, 0, 0, 1);
             sprite2.ColorHsb(OffsetA, 0, 0, 0);
             sprite2.ColorHsb(OffsetB, 0, 0, 1);
             sprite.Move(OsbEasing.OutQuart, OffsetA, OffsetB, 260, 240, 280, 240);
             sprite.Move(OsbEasing.OutQuart, OffsetB, OffsetC, 280, 240, 260, 250);
-            sprite.Move(OsbEasing.OutQuart, OffsetC, OffsetD, 260, 250, 260, 240);
+            sprite.Move(OsbEasing.Out, OffsetC, OffsetD, 260, 250, 260, 240);
             sprite2.Move(OsbEasing.OutQuart, OffsetA, OffsetB, 380, 240, 360, 240);
             sprite2.Move(OsbEasing.OutQuart, OffsetB, OffsetC, 360, 240, 380, 220);
-            sprite2.Move(OsbEasing.OutQuart, OffsetC, OffsetD, 380, 220, 380, 240);
+            sprite2.Move(OsbEasing.Out, OffsetC, OffsetD, 380, 220, 380, 240);
             sprite.ScaleVec(OsbEasing.OutQuart, OffsetA, OffsetB, .475, .475, .425, .425);
-            sprite.ScaleVec(OsbEasing.OutQuart, OffsetB, OffsetC, .35, .35, .325, .325);
+            sprite.ScaleVec(OsbEasing.Out, OffsetB, OffsetC, .35, .35, .325, .325);
             sprite2.ScaleVec(OsbEasing.OutQuart, OffsetA, OffsetB, .475, .475, .425, .425);
-            sprite2.ScaleVec(OsbEasing.OutQuart, OffsetB, OffsetC, .35, .35, .325, .325);
+            sprite2.ScaleVec(OsbEasing.Out, OffsetB, OffsetC, .35, .35, .325, .325);
 
             int OffsetF = 71193;
             int OffsetG = 73286;
@@ -1194,16 +1198,19 @@ namespace StorybrewScripts
 
             int OffsetA = 73402;
             int OffsetB = 74100;
-            int OffsetC = 75263;
-            int OffsetD = 75379;
+            int OffsetC = 75379;
+            int OffsetD = 75960;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
 
             sprite.Fade(OffsetA, OffsetA, 0, 1);
-            sprite.Fade(OffsetC, OffsetD, 1, 0);
+            sprite.Fade(OffsetD, OffsetD, 1, 0);
             sprite.ColorHsb(OffsetA, 0, 0, 1);
             sprite.Move(OsbEasing.None, OffsetA, OffsetB, 25, 320, 25, 320);
+            sprite.Move(OsbEasing.In, OffsetC, OffsetD, 25, 320, 930, 320);
             sprite.ScaleVec(OsbEasing.OutQuart, OffsetB, OffsetC, .3, .3, .3, .3);
+            sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, Rotation, Rotation);
+            sprite.Rotate(OsbEasing.In, OffsetC, OffsetD, Rotation, -RotationFlipped);
         }
 
         public void inyudrknfrezm()
@@ -1212,18 +1219,21 @@ namespace StorybrewScripts
 
             string Sprite = Path + Lyric + ".png";
 
-            int OffsetA = 76425;
-            int OffsetB = 76542;
-            int OffsetC = 77007;
-            int OffsetD = 77123;
+            int OffsetA = 75960;
+            int OffsetB = 76425;
+            int OffsetC = 77123;
+            int OffsetD = 77588;
             var layer = GetLayer(System.Reflection.MethodBase.GetCurrentMethod().Name);
             var sprite = layer.CreateSprite(Sprite, OsbOrigin.Centre);
 
             sprite.Fade(OffsetA, OffsetA, 0, 1);
-            sprite.Fade(OffsetC, OffsetD, 1, 0);
+            sprite.Fade(OffsetD, OffsetD, 1, 0);
             sprite.ColorHsb(OffsetA, 0, 0, 1);
-            sprite.Move(OsbEasing.None, OffsetA, OffsetB, 25, 220, 25, 220);
+            sprite.Move(OsbEasing.Out, OffsetA, OffsetB, -270, 480, 25, 220);
+            sprite.Move(OsbEasing.In, OffsetC, OffsetD, 25, 220, 1015, 400);
             sprite.ScaleVec(OsbEasing.OutQuart, OffsetB, OffsetC, .325, .325, .325, .325);
+            sprite.Rotate(OsbEasing.Out, OffsetA, OffsetB, -Rotation, Rotation);
+            sprite.Rotate(OsbEasing.In, OffsetC, OffsetD, Rotation, -RotationFlipped);
         }
 
         public void kktmcagrktb()

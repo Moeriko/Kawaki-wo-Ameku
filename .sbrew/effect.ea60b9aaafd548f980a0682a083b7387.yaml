@@ -7,8 +7,38 @@ Config:
     Value: "0"
     DisplayName: "Random seed"
 Layers:
-  508087168f9c43f9927dd9548cb17ae9:
-    Name: "Rain"
+  a89115e8e29d4e71b84ae8f2bf5e6a55:
+    Name: "IntroRain 1"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  4c9e6b17b94b4eadad2f5768ff7337bd:
+    Name: "IntroRain 2"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  11e5baf0b7a148db9a4a5cdb7d092c22:
+    Name: "Post-Intro Rain"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  492b00fe7e8541b68abdc18d56aeefad:
+    Name: "Post-Intro Transition Rain"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  a060481150d14994abc8387d32ab0f5d:
+    Name: "Chorus Rain Main 1"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  121ca46defb149a78e4101ec953ba669:
+    Name: "Chorus Main Rain 2"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  587613912c6f4c6fa48703b6749b190a:
+    Name: "Chorus Transition Rain"
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes

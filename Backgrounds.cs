@@ -126,7 +126,7 @@ namespace StorybrewScripts
             sprite.Fade(OffsetA, OffsetA, 0, 1);
             sprite.Fade(OffsetB, OffsetB, 1, 0);
             sprite.Move(OsbEasing.None, OffsetA, OffsetA, 320, 240, 320, 240);
-            sprite.ColorHsb(OffsetA, 0, .1, .05);
+            sprite.ColorHsb(OffsetA, 0, 0, 0);
             sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 86, 48, 86, 48);
             sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, 0, 0);
         }
