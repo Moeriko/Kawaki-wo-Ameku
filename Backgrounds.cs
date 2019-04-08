@@ -29,6 +29,7 @@ namespace StorybrewScripts
             Chorus_White_BG();
             Chorus_Outro_Blue_BG();
             Outro_Black_BG();
+            Outro_Credits();
         }
 
         public string Sprite = "sb/sprites/white.png";
@@ -233,6 +234,41 @@ namespace StorybrewScripts
             sprite.ColorHsb(OffsetA, 0, 1, 0);
             sprite.ScaleVec(OsbEasing.None, OffsetA, OffsetA, 86, 48, 86, 48);
             sprite.Rotate(OsbEasing.None, OffsetA, OffsetA, 0, 0);
+        }
+
+        public void Outro_Credits()
+        {
+            // Karen
+            int OffsetA = 85495;
+            int OffsetAA = 85728;
+            int OffsetB = 87123;
+            int OffsetBB = 87588;
+            string Karen = "sb/sprites/creditKaren.png";
+            var sKaren = GetLayer("Outro Credits").CreateSprite(Karen, OsbOrigin.Centre);
+
+            sKaren.Fade(OffsetA, OffsetAA, 0, 1);
+            sKaren.Fade(OffsetB, OffsetBB, 1, 0);
+            sKaren.Move(OsbEasing.In, OffsetA, OffsetAA, 0, 420, 300, 420);
+            sKaren.Move(OsbEasing.None, OffsetAA, OffsetB, 300, 420, 360, 420);
+            sKaren.Move(OsbEasing.Out, OffsetB, OffsetBB, 360, 420, 600, 420);
+            sKaren.Scale(OffsetA, .75);
+            sKaren.ColorHsb(OffsetA, 0, 0, 1);
+
+            // Moecho
+            int OffsetC = 87356;
+            int OffsetCC = 87588;
+            int OffsetD = 88518;
+            int OffsetDD = 89449;
+            string Moecho = "sb/sprites/creditMoecho.png";
+            var sMoecho = GetLayer("Outro Credits").CreateSprite(Moecho, OsbOrigin.Centre);
+
+            sMoecho.Fade(OffsetC, OffsetCC, 0, 1);
+            sMoecho.Fade(OffsetD, OffsetDD, 1, 0);
+            sMoecho.Move(OsbEasing.In, OffsetC, OffsetCC, 200, 420, 300, 420);
+            sMoecho.Move(OsbEasing.None, OffsetCC, OffsetD, 300, 420, 360, 420);
+            sMoecho.Move(OsbEasing.Out, OffsetD, OffsetDD, 360, 420, 1000, 420);
+            sMoecho.Scale(OffsetC, .75);
+            sMoecho.ColorHsb(OffsetA, 0, 0, 1);
         }
     }
 }

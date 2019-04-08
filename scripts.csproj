@@ -55,7 +55,10 @@
     <Compile Include="Backgrounds.cs" />
     <Compile Include="Lyrics.cs" />
     <Compile Include="Rains.cs" />
+    <Compile Include="ShakeEffect.cs" />
+    <Compile Include="SpaceTravel.cs" />
     <Compile Include="Squares.cs" />
+    <Compile Include="Unravel.cs" />
   </ItemGroup>
   <ItemGroup />
 </Project>

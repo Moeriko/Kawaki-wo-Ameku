@@ -1,0 +1,108 @@
+﻿FormatVersion: 6
+Name: "SpaceTravel 1"
+Script: "SpaceTravel"
+Config:
+  easing:
+    Type: "System.Int32"
+    Value: "0"
+    AllowedValues:
+      None: "0"
+      Out: "1"
+      In: "2"
+      InQuad: "3"
+      OutQuad: "4"
+      InOutQuad: "5"
+      InCubic: "6"
+      OutCubic: "7"
+      InOutCubic: "8"
+      InQuart: "9"
+      OutQuart: "10"
+      InOutQuart: "11"
+      InQuint: "12"
+      OutQuint: "13"
+      InOutQuint: "14"
+      InSine: "15"
+      OutSine: "16"
+      InOutSine: "17"
+      InExpo: "18"
+      OutExpo: "19"
+      InOutExpo: "20"
+      InCirc: "21"
+      OutCirc: "22"
+      InOutCirc: "23"
+      InElastic: "24"
+      OutElastic: "25"
+      OutElasticHalf: "26"
+      OutElasticQuarter: "27"
+      InOutElastic: "28"
+      InBack: "29"
+      OutBack: "30"
+      InOutBack: "31"
+      InBounce: "32"
+      OutBounce: "33"
+      InOutBounce: "34"
+  TrailOrigin:
+    Type: "System.Int32"
+    Value: "7"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  TrailSpritePath:
+    Type: "System.String"
+    Value: "sb/sprites/white.png"
+  ReverseTrails:
+    Type: "System.Boolean"
+    Value: "True"
+  TrailAdditive:
+    Type: "System.Boolean"
+    Value: "False"
+  FadeTime:
+    Type: "System.Single"
+    Value: "50"
+  Delay:
+    Type: "System.Single"
+    Value: "150"
+  centreX:
+    Type: "System.Single"
+    Value: "427"
+  centreY:
+    Type: "System.Single"
+    Value: "240"
+  borderX:
+    Type: "System.Single"
+    Value: "854"
+  borderY:
+    Type: "System.Single"
+    Value: "480"
+  speed:
+    Type: "System.Single"
+    Value: "5"
+  spawnDelay:
+    Type: "System.Double"
+    Value: "10"
+  RandomColor:
+    Type: "System.Boolean"
+    Value: "False"
+  MinColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,0.095"
+  MaxColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,0.3349999"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  5f036fcec20e4da3b594c177b39de8e3:
+    Name: "SpaceTravel"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

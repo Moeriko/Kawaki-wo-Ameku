@@ -93,7 +93,7 @@ namespace StorybrewScripts
 /* PositionX */     680,
 /* PositionY */     235,
 /* Scale */         .8,
-/* Opacity */       .5,
+/* Opacity */       .9,
 /* LayerName */     "Dropple 1",
 /* Hue */           0,
 /* Saturation */    0,
@@ -104,7 +104,7 @@ namespace StorybrewScripts
 /* PositionX */     100,
 /* PositionY */     450,
 /* Scale */         .7,
-/* Opacity */       .6,
+/* Opacity */       .9,
 /* LayerName */     "Dropple 2",
 /* Hue */           0,
 /* Saturation */    0,
@@ -119,18 +119,18 @@ namespace StorybrewScripts
 /* LayerName */     "Dropple 3",
 /* Hue */           220,
 /* Saturation */    30,
-/* Brightness */    90
+/* Brightness */    100
             );
             Dropple_Effect(
 /* StartTime */     28053,
 /* PositionX */     380,
 /* PositionY */     400,
 /* Scale */         .55,
-/* Opacity */       1,
+/* Opacity */       .9,
 /* LayerName */     "Dropple 4",
 /* Hue */           220,
 /* Saturation */    30,
-/* Brightness */    90
+/* Brightness */    100
             );
             Dropple_Effect(
 /* StartTime */     29914,
@@ -141,7 +141,7 @@ namespace StorybrewScripts
 /* LayerName */     "Dropple 5",
 /* Hue */           155,
 /* Saturation */    10,
-/* Brightness */    80
+/* Brightness */    100
             );
             Dropple_Effect(
 /* StartTime */     31774,
@@ -152,7 +152,7 @@ namespace StorybrewScripts
 /* LayerName */     "Dropple 6",
 /* Hue */           155,
 /* Saturation */    10,
-/* Brightness */    80
+/* Brightness */    100
             );
             Dropple_Effect(
 /* StartTime */     33635,
@@ -163,7 +163,7 @@ namespace StorybrewScripts
 /* LayerName */     "Dropple 7",
 /* Hue */           220,
 /* Saturation */    30,
-/* Brightness */    90
+/* Brightness */    100
             );
             Dropple_Effect(
 /* StartTime */     35495,
@@ -174,7 +174,7 @@ namespace StorybrewScripts
 /* LayerName */     "Dropple 8",
 /* Hue */           220,
 /* Saturation */    30,
-/* Brightness */    90
+/* Brightness */    100
             );
         }
 

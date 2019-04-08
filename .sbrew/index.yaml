@@ -1,18 +1,22 @@
 ﻿FormatVersion: 6
 MapsetPath: "E:/Games/Stream/osu!/Songs/924551 Minami - Kawaki wo Ameku (TV Size)"
-BeatmapId: 1935354
-BeatmapName: "UjiMatcha's Normal"
+BeatmapId: 1934326
+BeatmapName: "coco's Extra"
 Assemblies:
 Layers:
+  - "4cba3d163bc34507a12d47d82dfc9f2d"
+  - "b0655c0067f14b97a673b003924391c0"
+  - "32e92463c4204bc8b66eb9e4a7b371ca"
+  - "f496faf1b77d4292a3cd5188834015a2"
+  - "8bde21d1fd1b4f0c8e64dac2dce3e108"
+  - "68d3c4a769a2469d8e4c4341c0966405"
+  - "62cdc68a73154724a46ea96fdb276606"
+  - "f433c5d5c11e4f12bd3dbd57ac31fa1c"
   - "56a6ceb5c80e49dc88627ee8d54194ee"
   - "5ebb6730542547aeb87fec0477f2fb16"
   - "d4b164103133447482697061282b2fbc"
   - "47505f05c58b4ba89218ea8c7561250e"
   - "2aeff4fc5c24494db1759facc5194927"
-  - "f433c5d5c11e4f12bd3dbd57ac31fa1c"
-  - "68d3c4a769a2469d8e4c4341c0966405"
-  - "8bde21d1fd1b4f0c8e64dac2dce3e108"
-  - "62cdc68a73154724a46ea96fdb276606"
   - "8ba6e88b9e4c4d549fc1f8117a853166"
   - "bf696d42e867494f8e02c648dfcaa430"
   - "53b226f808564a9ab71c27b134fe17bc"
@@ -156,3 +160,5 @@ Layers:
   - "572f312ff5194a979e8dd15054514d51"
   - "08d0bda9b87543c59cd72576a33ac921"
   - "587613912c6f4c6fa48703b6749b190a"
+  - "5f036fcec20e4da3b594c177b39de8e3"
+  - "9ff7b695bf6540f2bf0c53e7e1ffc8da"
