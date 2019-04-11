@@ -67,7 +67,7 @@ namespace StorybrewScripts
 
         public override void Generate()
         {
-            ShakeGen(73402, 92578);
+            ShakeGen(73402, 89332);
         }
 
         public Vector2 CirclePos(double angle, int radius)

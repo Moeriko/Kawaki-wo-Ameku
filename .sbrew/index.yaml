@@ -1,17 +1,18 @@
 ﻿FormatVersion: 6
 MapsetPath: "E:/Games/Stream/osu!/Songs/924551 Minami - Kawaki wo Ameku (TV Size)"
-BeatmapId: 1934326
-BeatmapName: "coco's Extra"
+BeatmapId: 1949551
+BeatmapName: "Moecho's Unraveling Rain"
 Assemblies:
 Layers:
-  - "4cba3d163bc34507a12d47d82dfc9f2d"
-  - "b0655c0067f14b97a673b003924391c0"
-  - "32e92463c4204bc8b66eb9e4a7b371ca"
-  - "f496faf1b77d4292a3cd5188834015a2"
   - "8bde21d1fd1b4f0c8e64dac2dce3e108"
   - "68d3c4a769a2469d8e4c4341c0966405"
   - "62cdc68a73154724a46ea96fdb276606"
   - "f433c5d5c11e4f12bd3dbd57ac31fa1c"
+  - "4cba3d163bc34507a12d47d82dfc9f2d"
+  - "32e92463c4204bc8b66eb9e4a7b371ca"
+  - "b0655c0067f14b97a673b003924391c0"
+  - "342da0e43d044a63a02967a57480eeb4"
+  - "f496faf1b77d4292a3cd5188834015a2"
   - "56a6ceb5c80e49dc88627ee8d54194ee"
   - "5ebb6730542547aeb87fec0477f2fb16"
   - "d4b164103133447482697061282b2fbc"

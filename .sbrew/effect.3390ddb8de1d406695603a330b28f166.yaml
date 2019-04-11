@@ -12,13 +12,18 @@ Layers:
     OsbLayer: Background
     DiffSpecific: Yes
     Visible: Yes
+  32e92463c4204bc8b66eb9e4a7b371ca:
+    Name: "Kaneki Main"
+    OsbLayer: Background
+    DiffSpecific: Yes
+    Visible: Yes
   b0655c0067f14b97a673b003924391c0:
     Name: "Kaneki Fragment"
     OsbLayer: Background
     DiffSpecific: Yes
     Visible: Yes
-  32e92463c4204bc8b66eb9e4a7b371ca:
-    Name: "Kaneki Main"
+  342da0e43d044a63a02967a57480eeb4:
+    Name: "Chorus BG 2"
     OsbLayer: Background
     DiffSpecific: Yes
     Visible: Yes

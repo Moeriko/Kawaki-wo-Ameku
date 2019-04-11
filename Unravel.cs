@@ -113,6 +113,7 @@ namespace StorybrewScripts
             );
 
             Chorus_BG();
+            Chorus_BG_2();
         }
 
         /* for the triangle effect right before chorus */
@@ -169,6 +170,19 @@ namespace StorybrewScripts
             sprite.Fade(EndTime, EndTime, .33, 0);
             sprite.Move(StartTime, 320, 240);
             sprite.ScaleVec(OsbEasing.None, StartTime, StartTime, .5, .5, .5, .5);
+        }
+
+        public void Chorus_BG_2()
+        {
+            int StartTime = 73402;
+            int StartFadeOut = 85728;
+            int EndTime = 89332;
+            string SpritePath = "sb/unravel/kaneki_2.jpg";
+            var sprite = GetLayer("Chorus BG 2").CreateSprite(SpritePath, OsbOrigin.Centre);
+            sprite.Fade(StartTime, StartTime, 0, .5);
+            sprite.Fade(StartFadeOut, EndTime, .5, 0);
+            sprite.Move(StartTime, 320, 240);
+            sprite.ScaleVec(OsbEasing.None, StartTime, StartTime, .55, .55, .55, .55);
         }
     }
 }

@@ -68,10 +68,10 @@ Config:
     Value: "240"
   ShakeAmount:
     Type: "System.Int32"
-    Value: "100"
+    Value: "120"
   Radius:
     Type: "System.Int32"
-    Value: "10"
+    Value: "5"
   Scale:
     Type: "System.Single"
     Value: "0.6"

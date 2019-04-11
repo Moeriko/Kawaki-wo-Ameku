@@ -266,7 +266,7 @@ namespace StorybrewScripts
             sMoecho.Fade(OffsetD, OffsetDD, 1, 0);
             sMoecho.Move(OsbEasing.In, OffsetC, OffsetCC, 200, 420, 300, 420);
             sMoecho.Move(OsbEasing.None, OffsetCC, OffsetD, 300, 420, 360, 420);
-            sMoecho.Move(OsbEasing.Out, OffsetD, OffsetDD, 360, 420, 1000, 420);
+            sMoecho.Move(OsbEasing.Out, OffsetD, OffsetDD, 360, 420, 900, 420);
             sMoecho.Scale(OffsetC, .75);
             sMoecho.ColorHsb(OffsetA, 0, 0, 1);
         }
